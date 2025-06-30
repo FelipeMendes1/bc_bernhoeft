@@ -107,10 +107,13 @@ To run the application:
 
 ## Changelog
 
-- 30 de junho de 2025: Criação do banco PostgreSQL com dados de People Analytics
-- 30 de junho de 2025: Geração de 800 funcionários com dados realistas brasileiros
-- 30 de junho de 2025: Configuração de tabelas e views para análise no Power BI
-- 30 de junho de 2025: Documentação completa para integração
+- 30 de junho de 2025: **PROJETO REESTRUTURADO** - Solução completa focada em PostgreSQL
+- 30 de junho de 2025: Criação do script `main_people_analytics.py` como solução integrada
+- 30 de junho de 2025: Banco PostgreSQL atualizado com 800 funcionários e dados realistas
+- 30 de junho de 2025: Criados 65 funcionários de alto risco identificados para intervenção
+- 30 de junho de 2025: Documentação completa no `Guia_Completo_PowerBI.md`
+- 30 de junho de 2025: Queries SQL otimizadas em `powerbi_queries.sql` para análises avançadas
+- 30 de junho de 2025: Eliminação de arquivos CSV desnecessários - foco em conexão direta
 
 ## User Preferences
 
