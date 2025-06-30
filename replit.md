@@ -113,7 +113,8 @@ To run the application:
 - 30 de junho de 2025: Criados 65 funcionários de alto risco identificados para intervenção
 - 30 de junho de 2025: Documentação completa no `Guia_Completo_PowerBI.md`
 - 30 de junho de 2025: Queries SQL otimizadas em `powerbi_queries.sql` para análises avançadas
-- 30 de junho de 2025: Eliminação de arquivos CSV desnecessários - foco em conexão direta
+- 30 de junho de 2025: **PROJETO LIMPO** - Removidos todos arquivos desnecessários (CSVs, scripts antigos)
+- 30 de junho de 2025: Estrutura final: 5 arquivos essenciais para análise no Power BI
 
 ## User Preferences
 
