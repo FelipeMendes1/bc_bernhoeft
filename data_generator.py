@@ -58,8 +58,8 @@ def generate_employee_data(num_employees=800):
         age = current_year - birth_year
         
         # Hire date (tenure calculation)
-        max_tenure_years = min(age - 18, 25)  # Started working at least at 18
-        tenure_years = random.randint(0, max_tenure_years)
+        max_tenure_years = max(0, min(age - 18, 25))  # Started working at least at 18
+        tenure_years = random.randint(0, max(0, max_tenure_years))
         hire_date = datetime.now() - timedelta(days=tenure_years * 365 + random.randint(0, 365))
         
         # Salary based on position level
@@ -125,7 +125,9 @@ def generate_employee_data(num_employees=800):
             # Determine if voluntary or involuntary
             is_voluntary = random.random() < 0.7  # 70% voluntary
             separation_type = 'Voluntário' if is_voluntary else 'Involuntário'
-            separation_date = hire_date + timedelta(days=random.randint(30, int(tenure_years * 365)))
+            # Calculate separation date ensuring it's after hire date but before now
+            max_days = max(30, int(tenure_years * 365)) if tenure_years > 0 else 30
+            separation_date = hire_date + timedelta(days=random.randint(30, max_days))
             status = 'Desligado'
         else:
             separation_type = None
