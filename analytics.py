@@ -12,7 +12,6 @@ class PeopleAnalytics:
         self.separated_employees = df[df['Status'] == 'Desligado']
     
     def get_key_metrics(self):
-        """Calculate key HR metrics"""
         total_employees = len(self.df)
         active_employees = len(self.active_employees)
         separated_employees = len(self.separated_employees)

@@ -1,0 +1,12 @@
+departamento,total_funcionarios,funcionarios_ativos,engajamento_medio,risco_medio,taxa_turnover,turnover_voluntario,turnover_involuntario,tempo_casa_medio,salario_medio,taxa_retencao,categoria_engajamento,categoria_turnover
+Financeiro,73,48,7.2,35.9,34.25,18,7,10.4,16448,65.8,Médio,Alto
+Compras,79,60,7.1,36.3,24.05,12,7,9.8,20141,75.9,Médio,Normal
+Tecnologia,67,48,7.0,36.1,28.36,14,5,9.8,19734,71.6,Médio,Alto
+Recursos Humanos,84,57,7.0,36.8,32.14,14,13,9.7,15224,67.9,Médio,Alto
+Qualidade,83,55,6.9,38.0,33.73,18,10,9.9,16971,66.3,Médio,Alto
+Vendas,64,40,6.8,56.5,37.5,15,9,11.3,21592,62.5,Médio,Alto
+Jurídico,60,44,6.8,40.1,26.67,14,2,9.9,18580,73.3,Médio,Alto
+Logística,81,61,6.7,38.1,24.69,15,5,10.0,17063,75.3,Médio,Normal
+Marketing,51,38,6.7,41.9,25.49,8,5,7.9,18471,74.5,Médio,Alto
+Operações,75,45,6.4,59.0,40.0,18,12,9.5,17356,60.0,Baixo,Crítico
+Atendimento ao Cliente,83,46,6.4,60.0,44.58,24,13,10.9,14807,55.4,Baixo,Crítico

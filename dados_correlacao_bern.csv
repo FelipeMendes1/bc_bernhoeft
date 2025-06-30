@@ -1,0 +1,801 @@
+id_funcionario,departamento,nivel_cargo,geracao,idade,tempo_casa_anos,salario,score_engajamento,avaliacao_performance,score_risco_turnover,status,turnover_flag
+EMP0001,Qualidade,Coordenador,Millennial,29,11.3,16102,7.2,4.4,35.6,Ativo,0
+EMP0002,Logística,Gerente,Geração X,52,9.0,22578,7.2,4.0,18.2,Ativo,0
+EMP0003,Compras,Diretor,Millennial,38,11.3,41727,8.1,4.5,13.9,Ativo,0
+EMP0004,Vendas,Gerente,Baby Boomer,70,19.2,33100,6.0,3.6,62.8,Ativo,0
+EMP0005,Qualidade,Coordenador,Geração Z,16,0.8,15979,6.9,3.8,66.8,Desligado,1
+EMP0006,Atendimento ao Cliente,Diretor,Geração X,50,1.0,49700,6.8,4.4,53.3,Ativo,0
+EMP0007,Vendas,Sênior,Millennial,37,1.3,13451,4.9,3.5,58.1,Ativo,0
+EMP0008,Logística,Júnior,Baby Boomer,63,16.6,4899,5.2,3.1,59.1,Ativo,0
+EMP0009,Atendimento ao Cliente,Coordenador,Baby Boomer,68,6.1,14587,6.3,4.4,42.8,Ativo,0
+EMP0010,Financeiro,Pleno,Baby Boomer,67,13.8,8004,7.5,4.6,30.9,Ativo,0
+EMP0011,Operações,Gerente,Geração X,45,9.0,30078,8.8,4.7,30.3,Desligado,1
+EMP0012,Financeiro,Estagiário,Geração Z,14,0.6,2104,7.8,3.8,57.1,Ativo,0
+EMP0013,Recursos Humanos,Estagiário,Millennial,33,10.7,1757,8.0,4.4,15.1,Ativo,0
+EMP0014,Marketing,Coordenador,Millennial,31,8.9,14717,5.0,4.0,46.0,Ativo,0
+EMP0015,Operações,Estagiário,Geração X,46,11.0,2030,5.5,4.1,52.8,Ativo,0
+EMP0016,Qualidade,Sênior,Baby Boomer,66,8.0,12979,5.8,3.4,35.4,Ativo,0
+EMP0017,Qualidade,Gerente,Geração Z,17,0.8,24955,9.0,4.9,47.3,Ativo,0
+EMP0018,Operações,Pleno,Geração Z,15,0.4,7585,7.8,4.7,70.0,Desligado,1
+EMP0019,Vendas,Estagiário,Millennial,29,5.4,2416,7.3,4.3,33.5,Desligado,1
+EMP0020,Tecnologia,Sênior,Millennial,44,5.7,14784,7.7,4.0,22.6,Ativo,0
+EMP0021,Logística,Júnior,Baby Boomer,69,12.1,4640,7.8,4.0,31.1,Desligado,1
+EMP0022,Qualidade,Estagiário,Geração X,52,15.6,1988,7.4,4.7,25.0,Desligado,1
+EMP0023,Atendimento ao Cliente,Estagiário,Geração X,45,1.9,2380,6.5,4.1,49.3,Ativo,0
+EMP0024,Logística,Coordenador,Millennial,36,8.5,17048,4.6,3.5,57.9,Desligado,1
+EMP0025,Atendimento ao Cliente,Pleno,Millennial,33,3.8,7547,4.8,3.7,60.2,Ativo,0
+EMP0026,Tecnologia,Diretor,Baby Boomer,73,13.6,71340,8.2,4.0,16.6,Ativo,0
+EMP0027,Marketing,Estagiário,Millennial,33,4.7,1914,6.0,3.4,43.9,Ativo,0
+EMP0028,Logística,Coordenador,Baby Boomer,78,21.2,13982,4.3,3.7,75.3,Ativo,0
+EMP0029,Tecnologia,Estagiário,Millennial,38,5.8,2195,9.0,5.0,7.4,Ativo,0
+EMP0030,Tecnologia,Gerente,Millennial,40,3.9,27375,6.7,3.7,36.8,Ativo,0
+EMP0031,Recursos Humanos,Sênior,Geração Z,21,1.2,14061,7.8,4.7,37.0,Ativo,0
+EMP0032,Qualidade,Júnior,Baby Boomer,63,19.9,4110,5.1,3.8,59.7,Ativo,0
+EMP0033,Compras,Pleno,Baby Boomer,71,0.9,7180,5.1,3.2,63.4,Desligado,1
+EMP0034,Tecnologia,Júnior,Millennial,38,6.5,4541,6.4,3.6,35.9,Ativo,0
+EMP0035,Financeiro,Estagiário,Geração X,55,19.3,1539,8.7,4.8,22.8,Ativo,0
+EMP0036,Jurídico,Júnior,Geração X,56,18.2,4016,4.9,3.2,68.9,Desligado,1
+EMP0037,Recursos Humanos,Sênior,Baby Boomer,75,17.0,12574,5.1,3.1,49.6,Ativo,0
+EMP0038,Operações,Sênior,Geração X,46,19.7,10844,5.1,3.4,73.2,Ativo,0
+EMP0039,Tecnologia,Diretor,Geração X,51,2.9,63852,4.4,3.5,59.9,Desligado,1
+EMP0040,Financeiro,Coordenador,Geração Z,26,1.1,16143,8.5,4.7,16.4,Ativo,0
+EMP0041,Operações,Júnior,Millennial,31,0.5,4602,8.4,4.7,57.5,Ativo,0
+EMP0042,Logística,Diretor,Geração X,59,18.8,76577,4.3,3.7,58.9,Desligado,1
+EMP0043,Compras,Gerente,Geração Z,24,4.0,26855,5.0,3.5,52.2,Desligado,1
+EMP0044,Logística,Pleno,Geração X,56,12.8,8352,8.5,4.8,15.3,Ativo,0
+EMP0045,Compras,Gerente,Geração X,56,3.9,20654,7.2,4.4,29.2,Ativo,0
+EMP0046,Marketing,Diretor,Baby Boomer,73,3.6,75538,9.3,5.0,5.9,Ativo,0
+EMP0047,Recursos Humanos,Sênior,Millennial,42,11.7,12994,7.7,4.2,17.2,Ativo,0
+EMP0048,Vendas,Gerente,Geração Z,25,0.8,27568,5.1,3.3,99.1,Desligado,1
+EMP0049,Logística,Gerente,Geração X,54,23.7,20132,9.0,4.9,29.2,Ativo,0
+EMP0050,Tecnologia,Júnior,Millennial,44,25.1,3009,5.8,4.1,59.1,Ativo,0
+EMP0051,Compras,Estagiário,Geração Z,18,0.4,2331,6.5,3.6,58.1,Ativo,0
+EMP0052,Compras,Pleno,Geração X,50,17.3,7373,8.1,4.1,23.1,Ativo,0
+EMP0053,Financeiro,Estagiário,Baby Boomer,72,7.7,1936,7.8,4.3,15.6,Ativo,0
+EMP0054,Jurídico,Gerente,Geração X,45,21.3,18871,4.9,3.6,66.4,Ativo,0
+EMP0055,Atendimento ao Cliente,Diretor,Geração Z,22,4.9,70518,6.1,4.2,65.6,Desligado,1
+EMP0056,Recursos Humanos,Diretor,Baby Boomer,65,15.3,69288,6.4,4.2,43.3,Ativo,0
+EMP0057,Recursos Humanos,Coordenador,Geração X,54,7.0,18402,5.7,4.2,34.1,Ativo,0
+EMP0058,Jurídico,Sênior,Millennial,29,5.4,11968,5.7,3.4,45.1,Ativo,0
+EMP0059,Tecnologia,Sênior,Millennial,33,6.2,9024,6.5,3.5,36.6,Desligado,1
+EMP0060,Compras,Júnior,Geração Z,14,0.5,3647,8.6,4.1,53.0,Ativo,0
+EMP0061,Tecnologia,Sênior,Geração Z,24,0.3,14466,6.6,3.6,70.6,Ativo,0
+EMP0062,Recursos Humanos,Sênior,Geração Z,14,0.2,13726,4.8,3.6,78.5,Desligado,1
+EMP0063,Logística,Sênior,Geração X,58,25.3,11127,8.5,5.0,30.0,Desligado,1
+EMP0064,Financeiro,Diretor,Baby Boomer,70,10.6,46334,7.2,4.0,25.1,Ativo,0
+EMP0065,Operações,Coordenador,Millennial,32,14.9,14439,3.9,3.4,73.9,Ativo,0
+EMP0066,Marketing,Gerente,Millennial,36,8.1,23478,7.7,4.1,20.6,Ativo,0
+EMP0067,Vendas,Sênior,Baby Boomer,61,8.8,14612,7.7,4.7,29.3,Ativo,0
+EMP0068,Tecnologia,Coordenador,Geração Z,23,4.8,15434,5.4,3.2,57.9,Ativo,0
+EMP0069,Compras,Diretor,Geração X,60,14.1,45394,7.2,3.8,22.6,Ativo,0
+EMP0070,Recursos Humanos,Pleno,Baby Boomer,63,6.8,6551,8.0,4.6,17.6,Ativo,0
+EMP0071,Qualidade,Sênior,Geração Z,14,0.5,12206,4.7,3.6,81.4,Ativo,0
+EMP0072,Recursos Humanos,Coordenador,Baby Boomer,72,25.4,19940,8.8,4.6,22.5,Ativo,0
+EMP0073,Marketing,Coordenador,Millennial,39,5.0,14100,5.3,3.4,50.8,Desligado,1
+EMP0074,Recursos Humanos,Diretor,Millennial,30,8.9,77702,7.1,4.3,36.2,Ativo,0
+EMP0075,Operações,Estagiário,Geração X,51,2.7,1961,5.7,3.3,67.2,Desligado,1
+EMP0076,Atendimento ao Cliente,Sênior,Geração Z,23,2.7,14713,6.0,3.9,67.6,Desligado,1
+EMP0077,Atendimento ao Cliente,Sênior,Millennial,41,9.7,11643,4.2,3.3,71.1,Ativo,0
+EMP0078,Tecnologia,Gerente,Baby Boomer,74,20.1,27476,9.2,4.7,8.8,Ativo,0
+EMP0079,Vendas,Gerente,Geração Z,17,0.2,29609,6.0,4.2,91.1,Ativo,0
+EMP0080,Compras,Pleno,Geração X,54,24.0,7005,7.4,3.9,45.7,Ativo,0
+EMP0081,Qualidade,Sênior,Geração Z,17,0.6,14877,4.7,3.5,79.2,Desligado,1
+EMP0082,Compras,Diretor,Baby Boomer,63,17.6,46361,8.3,4.8,33.1,Ativo,0
+EMP0083,Recursos Humanos,Coordenador,Baby Boomer,69,19.1,14520,7.0,3.8,45.1,Desligado,1
+EMP0084,Logística,Diretor,Millennial,37,4.1,49346,6.9,4.2,21.5,Ativo,0
+EMP0085,Compras,Estagiário,Geração Z,17,0.9,1979,7.4,4.3,52.6,Ativo,0
+EMP0086,Financeiro,Coordenador,Geração X,52,1.4,13105,8.0,4.0,24.5,Ativo,0
+EMP0087,Financeiro,Diretor,Baby Boomer,70,14.5,47793,6.2,3.5,30.6,Ativo,0
+EMP0088,Operações,Estagiário,Geração Z,23,1.1,2031,4.3,3.4,88.5,Ativo,0
+EMP0089,Qualidade,Diretor,Geração X,56,9.7,54327,8.5,4.4,19.9,Ativo,0
+EMP0090,Logística,Diretor,Millennial,35,10.3,71224,7.8,4.0,16.6,Ativo,0
+EMP0091,Vendas,Pleno,Geração Z,20,0.9,8462,4.6,3.3,97.6,Desligado,1
+EMP0092,Operações,Diretor,Millennial,34,6.2,63540,6.9,3.7,48.2,Ativo,0
+EMP0093,Atendimento ao Cliente,Coordenador,Baby Boomer,63,4.6,14640,3.9,3.4,69.9,Ativo,0
+EMP0094,Jurídico,Coordenador,Geração X,60,18.6,14189,8.6,4.4,21.9,Ativo,0
+EMP0095,Operações,Júnior,Millennial,41,2.2,3321,4.5,3.8,73.6,Desligado,1
+EMP0096,Tecnologia,Estagiário,Baby Boomer,70,4.1,2107,4.4,3.6,61.0,Desligado,1
+EMP0097,Financeiro,Sênior,Geração Z,20,2.0,10356,5.2,4.0,60.7,Desligado,1
+EMP0098,Financeiro,Pleno,Millennial,35,3.1,7836,6.1,4.3,32.9,Ativo,0
+EMP0099,Marketing,Sênior,Geração Z,22,4.0,11903,5.8,3.4,60.7,Desligado,1
+EMP0100,Vendas,Pleno,Geração Z,13,0.6,8386,8.8,4.6,59.3,Desligado,1
+EMP0101,Tecnologia,Estagiário,Millennial,40,16.9,1614,6.3,3.5,54.2,Desligado,1
+EMP0102,Financeiro,Júnior,Geração Z,23,0.8,3852,5.3,3.8,74.7,Ativo,0
+EMP0103,Recursos Humanos,Coordenador,Geração X,46,11.4,16671,4.3,3.0,57.6,Ativo,0
+EMP0104,Tecnologia,Gerente,Millennial,41,17.6,22964,5.7,4.1,46.8,Ativo,0
+EMP0105,Logística,Coordenador,Geração X,56,10.7,12314,4.2,3.1,60.5,Desligado,1
+EMP0106,Vendas,Gerente,Millennial,37,16.3,24474,5.6,3.4,63.8,Desligado,1
+EMP0107,Recursos Humanos,Coordenador,Millennial,34,6.8,13578,4.2,3.5,54.8,Desligado,1
+EMP0108,Recursos Humanos,Sênior,Millennial,29,11.1,9026,6.1,3.9,43.6,Ativo,0
+EMP0109,Recursos Humanos,Sênior,Geração X,54,14.0,9220,7.3,4.2,23.1,Desligado,1
+EMP0110,Logística,Pleno,Geração Z,26,2.4,5742,4.6,3.0,94.9,Ativo,0
+EMP0111,Qualidade,Júnior,Geração Z,21,3.4,4617,5.9,3.4,51.8,Desligado,1
+EMP0112,Qualidade,Estagiário,Baby Boomer,74,20.4,2013,4.3,3.8,76.6,Ativo,0
+EMP0113,Tecnologia,Diretor,Geração Z,25,6.8,54626,5.7,3.6,55.8,Ativo,0
+EMP0114,Qualidade,Júnior,Geração X,49,20.0,4583,4.1,3.0,62.9,Desligado,1
+EMP0115,Atendimento ao Cliente,Júnior,Baby Boomer,76,3.2,4181,7.3,4.3,48.5,Ativo,0
+EMP0116,Atendimento ao Cliente,Coordenador,Baby Boomer,78,21.7,15887,6.5,3.7,70.3,Ativo,0
+EMP0117,Qualidade,Sênior,Geração X,48,13.5,14494,7.3,4.4,22.0,Ativo,0
+EMP0118,Compras,Sênior,Geração Z,19,1.5,11535,9.1,5.0,10.7,Ativo,0
+EMP0119,Vendas,Coordenador,Geração X,51,21.8,16605,7.4,4.1,52.1,Ativo,0
+EMP0120,Qualidade,Diretor,Geração X,49,23.7,62038,6.8,3.9,42.6,Ativo,0
+EMP0121,Qualidade,Pleno,Geração X,58,20.3,7025,7.8,4.4,41.4,Ativo,0
+EMP0122,Atendimento ao Cliente,Sênior,Millennial,31,5.6,14808,7.2,4.1,39.1,Desligado,1
+EMP0123,Qualidade,Estagiário,Geração X,47,11.0,1944,7.1,4.4,32.1,Ativo,0
+EMP0124,Atendimento ao Cliente,Diretor,Geração X,53,15.2,56191,5.3,3.6,65.6,Desligado,1
+EMP0125,Compras,Coordenador,Geração X,57,17.9,12074,8.3,4.9,26.3,Ativo,0
+EMP0126,Vendas,Sênior,Geração X,58,24.8,14855,4.4,3.2,87.4,Ativo,0
+EMP0127,Operações,Gerente,Geração Z,13,0.8,29724,7.8,4.3,58.5,Ativo,0
+EMP0128,Tecnologia,Coordenador,Baby Boomer,62,17.1,13550,7.9,4.8,26.7,Ativo,0
+EMP0129,Financeiro,Júnior,Baby Boomer,65,23.6,4912,8.6,5.0,18.5,Ativo,0
+EMP0130,Atendimento ao Cliente,Estagiário,Geração X,45,22.6,1831,8.4,4.9,42.7,Desligado,1
+EMP0131,Tecnologia,Coordenador,Geração Z,17,0.7,13952,8.5,4.9,36.5,Desligado,1
+EMP0132,Financeiro,Sênior,Geração X,48,3.2,13837,7.1,3.8,27.9,Desligado,1
+EMP0133,Recursos Humanos,Estagiário,Geração X,49,1.3,1668,6.0,3.6,43.9,Desligado,1
+EMP0134,Financeiro,Coordenador,Millennial,44,10.6,18186,6.5,3.5,29.6,Ativo,0
+EMP0135,Vendas,Gerente,Baby Boomer,71,12.9,18850,6.5,4.1,48.0,Desligado,1
+EMP0136,Tecnologia,Júnior,Baby Boomer,74,3.9,3448,4.6,3.8,44.8,Ativo,0
+EMP0137,Compras,Diretor,Geração Z,24,7.0,75644,7.3,4.1,33.1,Ativo,0
+EMP0138,Compras,Gerente,Geração X,53,16.3,22251,7.4,4.6,26.5,Ativo,0
+EMP0139,Recursos Humanos,Coordenador,Baby Boomer,70,1.8,15480,9.2,4.5,16.0,Ativo,0
+EMP0140,Tecnologia,Sênior,Millennial,41,16.4,9162,7.2,3.8,33.8,Ativo,0
+EMP0141,Tecnologia,Estagiário,Baby Boomer,77,24.0,2265,5.4,3.7,61.5,Ativo,0
+EMP0142,Jurídico,Júnior,Geração X,58,2.0,4622,8.9,4.4,8.6,Ativo,0
+EMP0143,Logística,Sênior,Baby Boomer,65,8.6,14680,7.7,4.0,16.5,Ativo,0
+EMP0144,Financeiro,Gerente,Millennial,33,9.0,21663,8.8,5.0,20.8,Ativo,0
+EMP0145,Financeiro,Coordenador,Baby Boomer,73,14.0,18542,4.6,3.8,58.7,Ativo,0
+EMP0146,Logística,Pleno,Millennial,36,11.0,6774,8.5,4.2,14.0,Ativo,0
+EMP0147,Tecnologia,Diretor,Geração X,51,23.1,48131,8.5,4.8,16.4,Ativo,0
+EMP0148,Compras,Coordenador,Millennial,33,6.0,14243,6.0,3.9,44.0,Ativo,0
+EMP0149,Financeiro,Pleno,Millennial,44,7.9,6485,5.6,3.6,36.3,Desligado,1
+EMP0150,Financeiro,Sênior,Baby Boomer,68,19.9,10664,6.4,4.2,56.0,Desligado,1
+EMP0151,Jurídico,Pleno,Geração X,48,21.9,8468,8.7,4.6,31.4,Ativo,0
+EMP0152,Tecnologia,Diretor,Geração X,56,1.5,58542,4.7,3.9,49.0,Desligado,1
+EMP0153,Recursos Humanos,Sênior,Geração Z,28,2.7,10046,4.8,3.0,91.2,Desligado,1
+EMP0154,Recursos Humanos,Estagiário,Geração X,48,4.8,2323,6.6,4.3,24.3,Ativo,0
+EMP0155,Financeiro,Gerente,Geração Z,24,5.1,18271,6.0,4.2,55.1,Ativo,0
+EMP0156,Tecnologia,Sênior,Geração Z,28,0.1,9670,5.1,3.1,76.1,Desligado,1
+EMP0157,Atendimento ao Cliente,Sênior,Geração Z,17,0.8,10912,5.5,4.0,98.7,Ativo,0
+EMP0158,Financeiro,Coordenador,Geração Z,26,5.8,18355,5.4,3.8,62.1,Desligado,1
+EMP0159,Jurídico,Diretor,Millennial,33,10.9,62001,6.4,3.6,36.0,Ativo,0
+EMP0160,Marketing,Coordenador,Baby Boomer,74,5.7,14795,6.3,4.0,41.7,Ativo,0
+EMP0161,Financeiro,Coordenador,Geração Z,28,7.4,12221,7.2,4.4,43.7,Ativo,0
+EMP0162,Recursos Humanos,Gerente,Geração X,58,2.7,32836,4.3,3.5,57.4,Desligado,1
+EMP0163,Compras,Pleno,Geração X,59,5.0,7347,8.4,4.6,12.4,Desligado,1
+EMP0164,Atendimento ao Cliente,Coordenador,Geração Z,27,7.9,12732,7.9,4.8,41.9,Desligado,1
+EMP0165,Recursos Humanos,Estagiário,Millennial,42,19.1,2150,8.6,5.0,24.2,Ativo,0
+EMP0166,Marketing,Pleno,Millennial,40,3.8,5589,4.7,3.2,56.0,Ativo,0
+EMP0167,Recursos Humanos,Júnior,Geração X,47,12.1,3532,4.8,3.2,59.5,Ativo,0
+EMP0168,Recursos Humanos,Pleno,Baby Boomer,78,13.0,7216,8.4,5.0,9.7,Ativo,0
+EMP0169,Qualidade,Estagiário,Baby Boomer,63,12.8,2027,6.2,4.0,33.2,Ativo,0
+EMP0170,Marketing,Gerente,Geração Z,20,1.8,25295,7.1,4.0,37.7,Ativo,0
+EMP0171,Marketing,Coordenador,Geração Z,15,0.6,16582,6.9,3.8,61.4,Ativo,0
+EMP0172,Recursos Humanos,Pleno,Millennial,29,8.8,6610,8.2,4.9,14.3,Ativo,0
+EMP0173,Logística,Júnior,Baby Boomer,73,23.1,3399,6.3,4.3,41.4,Ativo,0
+EMP0174,Jurídico,Pleno,Geração Z,17,1.0,7429,5.3,3.3,80.6,Desligado,1
+EMP0175,Compras,Sênior,Geração X,47,8.3,12569,6.4,3.6,40.2,Ativo,0
+EMP0176,Qualidade,Coordenador,Millennial,37,4.7,19499,7.1,4.3,23.2,Ativo,0
+EMP0177,Logística,Júnior,Millennial,35,11.3,4091,5.0,3.8,42.1,Ativo,0
+EMP0178,Vendas,Estagiário,Baby Boomer,66,12.2,2449,4.3,3.5,81.0,Ativo,0
+EMP0179,Logística,Júnior,Geração Z,22,0.4,3923,5.0,3.6,72.8,Ativo,0
+EMP0180,Compras,Gerente,Baby Boomer,75,17.3,28197,4.0,2.8,92.9,Desligado,1
+EMP0181,Atendimento ao Cliente,Diretor,Geração Z,20,2.3,56763,5.3,3.8,78.8,Ativo,0
+EMP0182,Qualidade,Júnior,Millennial,42,1.0,4399,7.3,4.5,27.1,Ativo,0
+EMP0183,Qualidade,Gerente,Geração X,56,19.4,33829,8.9,4.9,18.4,Ativo,0
+EMP0184,Operações,Pleno,Geração X,47,18.2,7375,7.6,4.6,48.1,Desligado,1
+EMP0185,Jurídico,Sênior,Baby Boomer,75,11.3,9130,7.6,4.1,22.0,Ativo,0
+EMP0186,Logística,Estagiário,Baby Boomer,72,6.9,2411,5.2,4.0,52.6,Ativo,0
+EMP0187,Financeiro,Júnior,Geração Z,16,1.0,3770,7.1,4.3,69.3,Desligado,1
+EMP0188,Marketing,Gerente,Geração Z,16,0.3,21548,6.4,3.9,62.5,Ativo,0
+EMP0189,Qualidade,Diretor,Geração Z,19,0.4,69205,4.1,3.3,82.6,Desligado,1
+EMP0190,Operações,Estagiário,Millennial,32,11.9,2280,6.0,3.3,47.8,Desligado,1
+EMP0191,Jurídico,Estagiário,Geração Z,17,0.3,1859,8.3,4.8,51.7,Desligado,1
+EMP0192,Qualidade,Coordenador,Geração X,48,16.2,18125,8.3,4.8,23.8,Desligado,1
+EMP0193,Atendimento ao Cliente,Coordenador,Geração X,49,7.6,14140,6.5,4.1,42.4,Ativo,0
+EMP0194,Tecnologia,Diretor,Geração X,56,6.9,74885,9.0,4.3,9.0,Ativo,0
+EMP0195,Operações,Júnior,Millennial,37,9.9,4089,5.7,4.1,63.5,Ativo,0
+EMP0196,Tecnologia,Sênior,Geração Z,23,2.4,12675,7.5,4.5,34.1,Ativo,0
+EMP0197,Logística,Estagiário,Geração X,49,7.0,1598,6.3,3.5,43.6,Ativo,0
+EMP0198,Jurídico,Gerente,Millennial,30,7.3,30808,8.2,4.7,20.7,Ativo,0
+EMP0199,Qualidade,Pleno,Geração X,46,4.1,7195,5.1,4.0,56.3,Ativo,0
+EMP0200,Jurídico,Estagiário,Millennial,42,4.5,2438,7.9,4.2,24.7,Ativo,0
+EMP0201,Tecnologia,Estagiário,Geração Z,14,0.3,1628,7.6,4.6,63.8,Desligado,1
+EMP0202,Vendas,Diretor,Millennial,40,13.1,71074,8.0,4.5,33.2,Ativo,0
+EMP0203,Qualidade,Pleno,Baby Boomer,73,13.5,5756,4.5,3.0,51.2,Ativo,0
+EMP0204,Compras,Pleno,Geração Z,14,0.3,7013,6.9,3.7,54.3,Desligado,1
+EMP0205,Vendas,Sênior,Geração X,52,13.5,10602,8.0,4.0,40.8,Ativo,0
+EMP0206,Qualidade,Coordenador,Baby Boomer,79,20.0,13207,4.4,3.1,62.4,Desligado,1
+EMP0207,Vendas,Coordenador,Geração Z,27,6.5,19803,7.3,3.9,59.5,Ativo,0
+EMP0208,Logística,Sênior,Geração Z,20,2.6,11110,6.0,3.7,42.3,Ativo,0
+EMP0209,Logística,Pleno,Geração X,48,25.3,6163,5.2,4.0,52.9,Ativo,0
+EMP0210,Recursos Humanos,Júnior,Baby Boomer,78,0.9,4663,8.6,5.0,33.4,Ativo,0
+EMP0211,Jurídico,Júnior,Millennial,41,7.3,4261,4.3,3.1,62.1,Ativo,0
+EMP0212,Jurídico,Coordenador,Baby Boomer,73,14.7,17520,7.7,4.6,24.1,Ativo,0
+EMP0213,Qualidade,Diretor,Baby Boomer,64,25.4,47333,7.2,4.5,29.6,Ativo,0
+EMP0214,Logística,Gerente,Geração X,58,20.3,19064,6.5,3.8,47.7,Desligado,1
+EMP0215,Logística,Coordenador,Geração Z,24,6.2,15027,8.7,4.5,21.6,Ativo,0
+EMP0216,Operações,Estagiário,Geração Z,22,1.5,2082,6.0,3.5,56.2,Ativo,0
+EMP0217,Operações,Pleno,Millennial,33,8.5,7671,8.2,4.3,41.0,Ativo,0
+EMP0218,Financeiro,Estagiário,Millennial,32,11.5,2309,7.4,4.5,18.4,Ativo,0
+EMP0219,Logística,Coordenador,Baby Boomer,68,12.8,15916,5.0,3.2,58.5,Ativo,0
+EMP0220,Marketing,Júnior,Geração X,47,19.3,3610,8.1,4.8,35.8,Ativo,0
+EMP0221,Logística,Gerente,Geração Z,21,3.4,18135,4.8,3.9,54.0,Ativo,0
+EMP0222,Qualidade,Pleno,Baby Boomer,71,8.8,6816,6.9,3.9,31.8,Ativo,0
+EMP0223,Tecnologia,Gerente,Geração X,48,25.6,34717,9.3,5.0,17.7,Ativo,0
+EMP0224,Atendimento ao Cliente,Gerente,Baby Boomer,75,15.1,18595,5.9,3.8,64.9,Ativo,0
+EMP0225,Recursos Humanos,Sênior,Baby Boomer,63,12.0,11271,6.8,4.0,28.5,Desligado,1
+EMP0226,Financeiro,Coordenador,Geração X,55,16.6,16435,6.4,3.6,46.0,Ativo,0
+EMP0227,Jurídico,Júnior,Geração Z,17,0.2,4712,8.2,4.9,50.0,Ativo,0
+EMP0228,Marketing,Sênior,Baby Boomer,78,0.9,11475,6.1,3.8,66.8,Ativo,0
+EMP0229,Recursos Humanos,Coordenador,Geração X,47,1.5,19997,8.1,4.4,27.6,Ativo,0
+EMP0230,Financeiro,Júnior,Geração Z,13,0.2,4458,7.4,3.8,58.6,Ativo,0
+EMP0231,Qualidade,Júnior,Baby Boomer,72,8.4,4232,7.5,4.7,28.4,Ativo,0
+EMP0232,Compras,Coordenador,Geração X,52,21.5,13191,5.5,4.0,47.0,Desligado,1
+EMP0233,Marketing,Pleno,Geração Z,22,3.5,8197,7.8,4.7,35.7,Desligado,1
+EMP0234,Qualidade,Gerente,Geração X,55,11.2,32013,7.9,4.5,14.9,Ativo,0
+EMP0235,Tecnologia,Sênior,Geração X,47,5.1,10717,8.9,4.7,4.6,Ativo,0
+EMP0236,Financeiro,Diretor,Millennial,42,15.8,49798,6.1,4.3,48.3,Desligado,1
+EMP0237,Tecnologia,Coordenador,Baby Boomer,62,4.3,19049,5.1,3.4,51.6,Ativo,0
+EMP0238,Operações,Júnior,Baby Boomer,64,17.7,3691,4.6,3.3,77.4,Ativo,0
+EMP0239,Jurídico,Coordenador,Geração X,59,7.6,19504,8.7,4.3,18.6,Ativo,0
+EMP0240,Logística,Sênior,Geração Z,13,0.6,12787,4.3,3.5,80.1,Desligado,1
+EMP0241,Qualidade,Coordenador,Geração X,45,9.9,19081,8.9,5.0,18.3,Ativo,0
+EMP0242,Financeiro,Pleno,Baby Boomer,69,24.6,5508,9.4,5.0,15.7,Ativo,0
+EMP0243,Recursos Humanos,Coordenador,Geração X,54,13.0,14546,8.1,4.8,21.8,Ativo,0
+EMP0244,Jurídico,Diretor,Baby Boomer,63,5.1,73264,5.7,3.8,51.6,Ativo,0
+EMP0245,Vendas,Estagiário,Millennial,34,4.1,2307,7.4,4.7,39.6,Ativo,0
+EMP0246,Logística,Sênior,Geração Z,13,0.5,10957,6.8,4.2,67.8,Ativo,0
+EMP0247,Recursos Humanos,Júnior,Geração X,58,6.4,4302,7.6,4.6,31.7,Ativo,0
+EMP0248,Jurídico,Gerente,Millennial,42,11.2,26004,6.3,4.2,36.5,Desligado,1
+EMP0249,Tecnologia,Estagiário,Geração Z,15,0.5,2337,5.5,4.1,71.9,Ativo,0
+EMP0250,Vendas,Júnior,Millennial,43,9.9,3270,5.6,4.2,59.7,Desligado,1
+EMP0251,Operações,Sênior,Baby Boomer,63,8.7,13839,5.8,4.1,53.0,Ativo,0
+EMP0252,Financeiro,Diretor,Baby Boomer,65,20.6,62758,7.9,3.9,32.3,Ativo,0
+EMP0253,Vendas,Gerente,Baby Boomer,79,18.0,24582,7.1,4.4,49.8,Ativo,0
+EMP0254,Logística,Gerente,Geração X,54,1.5,29041,8.9,4.3,8.1,Ativo,0
+EMP0255,Vendas,Estagiário,Geração Z,26,8.7,1643,5.8,3.4,65.8,Ativo,0
+EMP0256,Recursos Humanos,Pleno,Geração X,46,8.2,7147,9.1,5.0,11.1,Ativo,0
+EMP0257,Tecnologia,Estagiário,Geração X,49,7.3,2357,7.5,4.0,33.9,Desligado,1
+EMP0258,Logística,Gerente,Geração X,46,22.9,29245,8.2,4.0,35.6,Ativo,0
+EMP0259,Jurídico,Sênior,Baby Boomer,65,7.6,12034,5.5,3.3,46.5,Ativo,0
+EMP0260,Financeiro,Coordenador,Geração Z,27,1.7,18825,8.3,4.1,30.2,Ativo,0
+EMP0261,Compras,Estagiário,Geração X,54,2.4,2314,4.6,3.0,77.5,Desligado,1
+EMP0262,Logística,Gerente,Geração X,56,22.6,23547,5.7,3.6,44.4,Desligado,1
+EMP0263,Qualidade,Pleno,Baby Boomer,72,1.7,7743,5.4,3.8,47.2,Desligado,1
+EMP0264,Vendas,Pleno,Geração X,55,2.1,6058,7.9,4.2,41.1,Ativo,0
+EMP0265,Jurídico,Diretor,Baby Boomer,79,10.2,48593,4.5,2.9,70.3,Ativo,0
+EMP0266,Compras,Sênior,Baby Boomer,63,10.6,14393,8.1,4.4,19.9,Desligado,1
+EMP0267,Compras,Pleno,Baby Boomer,63,25.7,8241,4.1,3.4,59.1,Desligado,1
+EMP0268,Logística,Gerente,Geração X,47,21.9,26049,5.8,4.1,49.3,Ativo,0
+EMP0269,Recursos Humanos,Pleno,Geração X,46,11.1,7218,6.9,4.4,38.7,Ativo,0
+EMP0270,Recursos Humanos,Gerente,Baby Boomer,63,6.2,25862,7.3,4.1,25.6,Ativo,0
+EMP0271,Vendas,Júnior,Geração Z,18,0.1,4004,9.1,5.0,53.5,Ativo,0
+EMP0272,Operações,Pleno,Geração Z,25,4.4,7017,7.7,4.5,55.3,Ativo,0
+EMP0273,Atendimento ao Cliente,Diretor,Geração X,54,18.5,72416,8.7,4.4,29.2,Ativo,0
+EMP0274,Recursos Humanos,Pleno,Millennial,36,14.7,7449,6.5,4.3,41.6,Ativo,0
+EMP0275,Operações,Júnior,Geração Z,25,6.7,4214,7.9,4.4,47.1,Ativo,0
+EMP0276,Tecnologia,Júnior,Geração Z,22,0.8,3644,7.2,4.1,62.6,Ativo,0
+EMP0277,Qualidade,Coordenador,Geração X,57,22.0,13470,3.8,2.7,87.4,Desligado,1
+EMP0278,Qualidade,Gerente,Baby Boomer,76,16.6,25719,4.1,3.4,73.0,Ativo,0
+EMP0279,Vendas,Diretor,Baby Boomer,73,17.3,78684,6.3,3.4,54.6,Desligado,1
+EMP0280,Financeiro,Sênior,Baby Boomer,76,19.3,11634,9.0,4.3,14.3,Ativo,0
+EMP0281,Qualidade,Pleno,Millennial,34,2.4,7224,5.4,3.9,50.1,Desligado,1
+EMP0282,Jurídico,Pleno,Geração Z,15,0.3,7709,8.5,4.1,51.5,Desligado,1
+EMP0283,Tecnologia,Sênior,Baby Boomer,62,20.4,11895,8.7,4.7,22.8,Ativo,0
+EMP0284,Financeiro,Pleno,Millennial,42,18.6,7346,8.8,4.3,29.7,Ativo,0
+EMP0285,Operações,Pleno,Geração X,60,7.2,7938,5.9,3.8,50.3,Ativo,0
+EMP0286,Compras,Diretor,Baby Boomer,76,1.5,59099,4.9,3.9,44.9,Ativo,0
+EMP0287,Atendimento ao Cliente,Estagiário,Millennial,44,6.2,2386,6.7,4.2,50.0,Ativo,0
+EMP0288,Recursos Humanos,Coordenador,Geração X,53,0.1,15950,4.6,3.1,70.0,Desligado,1
+EMP0289,Operações,Diretor,Geração X,56,2.9,79956,5.6,4.2,54.8,Ativo,0
+EMP0290,Qualidade,Sênior,Geração Z,15,0.8,10182,7.2,4.0,51.9,Ativo,0
+EMP0291,Qualidade,Estagiário,Geração X,56,15.5,1578,4.2,2.9,77.8,Desligado,1
+EMP0292,Tecnologia,Coordenador,Geração Z,26,3.9,12642,8.5,4.7,30.4,Ativo,0
+EMP0293,Logística,Gerente,Geração X,58,19.5,24625,8.1,4.9,26.1,Ativo,0
+EMP0294,Vendas,Pleno,Millennial,32,12.1,6419,7.3,4.7,42.1,Desligado,1
+EMP0295,Operações,Júnior,Baby Boomer,63,11.0,3242,7.4,3.9,38.8,Desligado,1
+EMP0296,Qualidade,Pleno,Millennial,43,3.2,7578,6.4,3.5,32.3,Ativo,0
+EMP0297,Tecnologia,Diretor,Baby Boomer,78,4.8,37659,5.6,4.1,41.8,Ativo,0
+EMP0298,Vendas,Diretor,Millennial,29,3.0,68344,5.3,3.9,53.1,Ativo,0
+EMP0299,Operações,Pleno,Millennial,30,6.5,7473,5.4,4.0,69.8,Ativo,0
+EMP0300,Operações,Pleno,Baby Boomer,76,0.6,6981,4.9,3.1,77.0,Ativo,0
+EMP0301,Compras,Gerente,Baby Boomer,68,12.7,29120,8.4,4.8,18.1,Ativo,0
+EMP0302,Vendas,Diretor,Geração Z,28,7.9,41973,6.7,4.4,67.5,Desligado,1
+EMP0303,Atendimento ao Cliente,Sênior,Geração X,50,21.2,9887,7.3,4.0,47.0,Ativo,0
+EMP0304,Logística,Pleno,Millennial,41,0.7,6856,6.8,4.5,59.6,Ativo,0
+EMP0305,Compras,Diretor,Baby Boomer,72,3.7,49255,8.4,4.9,7.9,Ativo,0
+EMP0306,Recursos Humanos,Pleno,Millennial,41,6.7,6794,6.9,3.7,31.3,Ativo,0
+EMP0307,Tecnologia,Coordenador,Geração Z,25,6.1,18556,8.7,4.9,22.3,Desligado,1
+EMP0308,Atendimento ao Cliente,Estagiário,Millennial,30,10.7,2156,5.1,3.8,73.5,Desligado,1
+EMP0309,Atendimento ao Cliente,Júnior,Baby Boomer,79,20.8,4727,5.0,3.3,78.2,Ativo,0
+EMP0310,Vendas,Júnior,Geração X,56,23.7,3517,6.0,3.7,73.2,Desligado,1
+EMP0311,Operações,Pleno,Geração Z,13,0.7,5836,8.2,4.8,65.0,Ativo,0
+EMP0312,Atendimento ao Cliente,Sênior,Geração Z,19,1.5,11610,7.8,4.6,55.5,Desligado,1
+EMP0313,Marketing,Júnior,Geração X,50,13.2,3769,6.6,3.8,42.0,Ativo,0
+EMP0314,Vendas,Diretor,Baby Boomer,61,24.6,39080,4.6,2.9,96.5,Ativo,0
+EMP0315,Recursos Humanos,Gerente,Millennial,36,5.9,25185,9.5,4.4,1.3,Ativo,0
+EMP0316,Tecnologia,Gerente,Geração Z,20,3.0,30837,5.6,3.5,49.6,Desligado,1
+EMP0317,Recursos Humanos,Coordenador,Millennial,37,18.9,15807,5.1,4.0,67.1,Desligado,1
+EMP0318,Compras,Coordenador,Baby Boomer,72,11.8,18779,7.7,4.2,13.4,Ativo,0
+EMP0319,Jurídico,Diretor,Baby Boomer,74,24.1,35748,7.4,4.0,40.8,Ativo,0
+EMP0320,Recursos Humanos,Gerente,Millennial,43,25.1,20935,5.4,3.8,56.1,Desligado,1
+EMP0321,Financeiro,Diretor,Baby Boomer,69,7.8,47248,6.3,3.7,30.2,Ativo,0
+EMP0322,Recursos Humanos,Diretor,Millennial,36,15.4,36243,5.2,4.0,52.8,Ativo,0
+EMP0323,Vendas,Gerente,Millennial,38,17.3,25582,6.4,3.5,56.5,Ativo,0
+EMP0324,Marketing,Júnior,Geração X,46,19.5,3032,7.8,4.8,30.6,Desligado,1
+EMP0325,Atendimento ao Cliente,Estagiário,Geração X,49,18.9,2296,6.3,4.1,70.9,Ativo,0
+EMP0326,Financeiro,Coordenador,Millennial,31,3.8,17916,5.4,3.9,38.5,Desligado,1
+EMP0327,Logística,Sênior,Geração X,59,24.6,13375,7.2,3.7,43.1,Ativo,0
+EMP0328,Vendas,Pleno,Geração Z,21,3.4,7931,6.4,4.4,67.4,Desligado,1
+EMP0329,Logística,Júnior,Geração X,57,3.0,4383,5.6,3.2,40.5,Ativo,0
+EMP0330,Recursos Humanos,Coordenador,Millennial,34,14.3,18376,5.7,3.5,39.0,Desligado,1
+EMP0331,Financeiro,Sênior,Millennial,37,17.2,12267,6.7,3.6,49.5,Ativo,0
+EMP0332,Operações,Gerente,Geração Z,23,4.1,33051,7.7,4.7,40.7,Desligado,1
+EMP0333,Logística,Gerente,Geração X,57,12.2,21206,8.1,4.6,26.5,Ativo,0
+EMP0334,Logística,Pleno,Baby Boomer,61,0.3,6083,7.9,3.9,32.4,Desligado,1
+EMP0335,Tecnologia,Gerente,Millennial,40,18.3,27648,5.3,3.5,54.7,Desligado,1
+EMP0336,Recursos Humanos,Júnior,Baby Boomer,71,5.7,3153,4.6,3.0,78.7,Desligado,1
+EMP0337,Operações,Coordenador,Geração X,58,1.1,12465,4.3,3.5,70.8,Desligado,1
+EMP0338,Operações,Júnior,Millennial,34,13.9,3239,5.8,3.7,54.1,Ativo,0
+EMP0339,Atendimento ao Cliente,Diretor,Baby Boomer,78,20.8,49382,6.0,3.6,71.0,Desligado,1
+EMP0340,Atendimento ao Cliente,Júnior,Geração X,55,23.4,4020,7.4,3.8,52.8,Ativo,0
+EMP0341,Operações,Pleno,Geração Z,15,0.3,6112,4.9,3.2,92.3,Desligado,1
+EMP0342,Operações,Júnior,Geração X,57,10.7,4912,7.2,3.7,43.1,Desligado,1
+EMP0343,Qualidade,Sênior,Millennial,35,17.0,10173,6.3,3.9,55.6,Ativo,0
+EMP0344,Qualidade,Pleno,Geração X,53,5.5,8340,8.3,4.3,21.2,Ativo,0
+EMP0345,Atendimento ao Cliente,Diretor,Geração X,56,20.8,42005,5.0,3.5,75.0,Desligado,1
+EMP0346,Logística,Estagiário,Geração X,57,1.3,2233,7.3,3.8,19.5,Ativo,0
+EMP0347,Marketing,Estagiário,Geração X,48,11.0,2083,9.5,5.0,0.0,Ativo,0
+EMP0348,Qualidade,Diretor,Millennial,30,8.1,65923,6.0,4.2,43.2,Ativo,0
+EMP0349,Qualidade,Júnior,Baby Boomer,78,0.4,3974,4.3,3.2,78.5,Desligado,1
+EMP0350,Qualidade,Coordenador,Geração Z,23,0.3,18052,4.8,3.5,72.0,Ativo,0
+EMP0351,Operações,Sênior,Geração X,45,12.0,11139,4.4,3.7,72.3,Desligado,1
+EMP0352,Logística,Diretor,Geração Z,20,1.3,52640,8.0,4.9,23.4,Ativo,0
+EMP0353,Qualidade,Estagiário,Geração Z,25,7.0,1979,4.5,3.2,65.3,Desligado,1
+EMP0354,Compras,Estagiário,Geração X,53,16.6,2179,5.3,4.0,61.8,Ativo,0
+EMP0355,Qualidade,Pleno,Geração X,52,2.7,5830,7.5,4.3,28.9,Ativo,0
+EMP0356,Qualidade,Sênior,Geração X,50,22.1,12120,5.9,4.2,51.0,Ativo,0
+EMP0357,Operações,Pleno,Geração Z,18,0.9,7351,7.5,3.8,71.8,Desligado,1
+EMP0358,Financeiro,Diretor,Geração X,59,8.5,42631,8.0,4.7,9.6,Ativo,0
+EMP0359,Atendimento ao Cliente,Júnior,Millennial,36,5.9,3394,7.2,4.5,42.1,Ativo,0
+EMP0360,Operações,Gerente,Millennial,29,4.5,33640,9.0,4.3,28.6,Ativo,0
+EMP0361,Atendimento ao Cliente,Estagiário,Millennial,40,11.3,2080,5.9,3.7,48.0,Desligado,1
+EMP0362,Compras,Coordenador,Geração X,51,17.8,13603,4.3,3.1,69.4,Desligado,1
+EMP0363,Vendas,Diretor,Geração X,57,25.4,74984,7.8,4.4,52.9,Ativo,0
+EMP0364,Recursos Humanos,Pleno,Baby Boomer,75,17.5,7579,8.0,4.3,23.8,Ativo,0
+EMP0365,Qualidade,Sênior,Baby Boomer,75,17.5,14629,8.3,4.2,36.7,Ativo,0
+EMP0366,Recursos Humanos,Pleno,Baby Boomer,76,14.6,6549,8.2,4.4,26.8,Ativo,0
+EMP0367,Recursos Humanos,Pleno,Geração X,56,15.9,7910,8.2,4.6,24.2,Ativo,0
+EMP0368,Marketing,Coordenador,Millennial,37,16.3,19598,9.3,5.0,9.9,Ativo,0
+EMP0369,Compras,Pleno,Geração Z,15,0.3,6643,6.2,3.8,60.4,Ativo,0
+EMP0370,Jurídico,Sênior,Geração X,46,23.9,14924,8.8,5.0,18.5,Ativo,0
+EMP0371,Atendimento ao Cliente,Sênior,Millennial,43,13.2,11401,8.0,4.1,36.5,Ativo,0
+EMP0372,Qualidade,Coordenador,Millennial,44,19.1,16034,5.7,3.4,60.5,Desligado,1
+EMP0373,Compras,Sênior,Geração Z,13,0.8,9724,5.4,3.3,66.4,Ativo,0
+EMP0374,Compras,Diretor,Baby Boomer,64,16.4,68956,8.0,4.6,34.4,Ativo,0
+EMP0375,Operações,Diretor,Millennial,43,8.4,78919,5.1,3.2,54.2,Desligado,1
+EMP0376,Compras,Estagiário,Geração Z,22,2.3,1630,9.0,5.0,13.2,Ativo,0
+EMP0377,Compras,Sênior,Geração X,60,13.5,13560,7.7,3.9,23.3,Ativo,0
+EMP0378,Vendas,Pleno,Millennial,41,0.7,6869,5.0,3.3,84.2,Desligado,1
+EMP0379,Vendas,Sênior,Millennial,38,19.2,10817,7.8,3.9,39.4,Ativo,0
+EMP0380,Tecnologia,Gerente,Millennial,30,6.2,34622,5.1,3.9,43.2,Ativo,0
+EMP0381,Atendimento ao Cliente,Pleno,Geração X,51,17.0,6208,5.8,3.7,70.1,Ativo,0
+EMP0382,Financeiro,Gerente,Millennial,43,8.4,22884,5.2,3.7,43.1,Ativo,0
+EMP0383,Financeiro,Estagiário,Millennial,33,9.1,2295,7.8,4.8,25.1,Ativo,0
+EMP0384,Financeiro,Estagiário,Geração Z,21,0.8,2000,7.0,3.8,53.2,Desligado,1
+EMP0385,Tecnologia,Coordenador,Geração X,45,0.3,14058,4.0,2.7,100.0,Desligado,1
+EMP0386,Qualidade,Gerente,Millennial,31,13.3,32599,7.8,4.7,16.1,Ativo,0
+EMP0387,Operações,Pleno,Geração Z,19,1.9,6683,4.2,2.9,100.0,Desligado,1
+EMP0388,Operações,Júnior,Baby Boomer,72,18.4,3092,4.7,3.6,80.2,Ativo,0
+EMP0389,Financeiro,Estagiário,Millennial,31,12.8,1617,5.0,3.7,49.0,Ativo,0
+EMP0390,Qualidade,Sênior,Geração Z,22,0.3,14911,4.1,3.1,89.0,Desligado,1
+EMP0391,Jurídico,Júnior,Millennial,39,4.8,3791,8.0,4.0,13.0,Ativo,0
+EMP0392,Jurídico,Sênior,Baby Boomer,65,23.5,12922,7.6,4.8,36.0,Desligado,1
+EMP0393,Logística,Diretor,Geração X,51,24.6,35489,6.8,3.8,50.0,Ativo,0
+EMP0394,Vendas,Sênior,Geração Z,19,1.4,9932,8.4,4.0,42.8,Desligado,1
+EMP0395,Financeiro,Estagiário,Millennial,31,12.6,1980,5.6,3.5,42.2,Ativo,0
+EMP0396,Operações,Gerente,Geração X,49,2.1,23171,5.2,3.4,65.8,Ativo,0
+EMP0397,Financeiro,Gerente,Millennial,42,12.5,30628,8.0,4.0,17.1,Ativo,0
+EMP0398,Qualidade,Gerente,Geração Z,18,0.0,32776,4.7,3.1,91.7,Desligado,1
+EMP0399,Marketing,Diretor,Geração Z,15,0.8,59783,7.3,4.0,48.6,Ativo,0
+EMP0400,Atendimento ao Cliente,Coordenador,Geração X,50,25.3,15236,8.5,4.3,34.0,Ativo,0
+EMP0401,Atendimento ao Cliente,Coordenador,Millennial,44,19.8,15994,3.9,3.2,92.1,Ativo,0
+EMP0402,Atendimento ao Cliente,Gerente,Geração X,52,24.8,24104,6.8,4.0,55.7,Ativo,0
+EMP0403,Compras,Estagiário,Geração Z,15,0.1,2035,5.6,3.4,70.9,Ativo,0
+EMP0404,Recursos Humanos,Estagiário,Geração X,54,13.0,1744,8.4,4.7,18.3,Desligado,1
+EMP0405,Vendas,Júnior,Geração X,52,10.3,4198,6.2,4.2,55.4,Ativo,0
+EMP0406,Financeiro,Estagiário,Millennial,31,3.3,1613,6.9,4.2,28.1,Desligado,1
+EMP0407,Logística,Sênior,Geração Z,15,0.8,12858,4.9,3.3,79.3,Ativo,0
+EMP0408,Vendas,Pleno,Geração Z,13,0.8,7972,4.4,3.3,93.0,Desligado,1
+EMP0409,Atendimento ao Cliente,Diretor,Geração Z,15,0.1,62597,4.2,3.1,100.0,Desligado,1
+EMP0410,Recursos Humanos,Gerente,Geração Z,20,2.4,24918,5.9,4.1,47.9,Ativo,0
+EMP0411,Recursos Humanos,Diretor,Geração X,59,24.2,47487,4.9,3.4,62.0,Ativo,0
+EMP0412,Financeiro,Estagiário,Baby Boomer,61,0.0,2074,6.8,4.0,61.1,Ativo,0
+EMP0413,Compras,Pleno,Geração Z,25,5.7,6450,6.3,3.5,51.7,Ativo,0
+EMP0414,Qualidade,Coordenador,Geração X,57,19.7,13764,7.7,4.1,34.6,Desligado,1
+EMP0415,Logística,Diretor,Geração X,48,7.4,35437,8.7,4.6,5.9,Desligado,1
+EMP0416,Financeiro,Pleno,Geração Z,14,1.0,7260,8.7,4.7,48.8,Desligado,1
+EMP0417,Operações,Gerente,Baby Boomer,74,17.9,32367,5.0,3.4,81.0,Ativo,0
+EMP0418,Qualidade,Gerente,Geração Z,18,0.4,24828,8.5,4.1,35.4,Ativo,0
+EMP0419,Marketing,Diretor,Geração Z,24,0.5,50916,6.1,4.3,63.3,Ativo,0
+EMP0420,Tecnologia,Júnior,Millennial,31,10.5,4619,4.7,3.9,61.8,Desligado,1
+EMP0421,Atendimento ao Cliente,Júnior,Geração Z,16,0.6,4247,6.4,3.7,76.8,Ativo,0
+EMP0422,Vendas,Diretor,Baby Boomer,71,13.7,40630,4.2,3.3,78.3,Ativo,0
+EMP0423,Tecnologia,Pleno,Baby Boomer,62,18.1,7041,6.3,3.8,47.9,Ativo,0
+EMP0424,Tecnologia,Gerente,Millennial,43,5.0,20316,5.9,3.4,32.6,Ativo,0
+EMP0425,Marketing,Júnior,Geração X,53,17.1,4373,6.7,3.7,48.3,Desligado,1
+EMP0426,Jurídico,Pleno,Geração Z,18,0.9,6732,7.0,4.3,64.3,Ativo,0
+EMP0427,Vendas,Estagiário,Millennial,34,14.0,1680,4.8,3.8,63.9,Desligado,1
+EMP0428,Atendimento ao Cliente,Júnior,Geração X,51,8.7,4189,6.5,3.7,55.4,Ativo,0
+EMP0429,Compras,Diretor,Baby Boomer,78,9.3,68619,8.7,4.6,10.6,Ativo,0
+EMP0430,Financeiro,Coordenador,Geração X,59,8.4,19819,6.0,4.2,48.5,Ativo,0
+EMP0431,Compras,Júnior,Geração Z,21,3.0,3491,7.0,3.9,34.3,Ativo,0
+EMP0432,Compras,Sênior,Geração Z,27,6.4,12345,6.9,3.9,33.4,Ativo,0
+EMP0433,Vendas,Gerente,Millennial,35,12.3,29095,4.4,3.4,73.9,Desligado,1
+EMP0434,Compras,Diretor,Millennial,39,20.1,70873,7.7,4.6,36.5,Ativo,0
+EMP0435,Financeiro,Coordenador,Geração Z,28,5.2,19323,5.9,4.0,53.4,Desligado,1
+EMP0436,Atendimento ao Cliente,Coordenador,Millennial,39,17.6,16925,6.6,3.9,50.3,Ativo,0
+EMP0437,Marketing,Diretor,Geração X,51,20.0,67468,6.9,3.6,46.2,Ativo,0
+EMP0438,Compras,Gerente,Millennial,44,24.7,19637,6.9,3.6,33.7,Ativo,0
+EMP0439,Operações,Coordenador,Geração X,47,22.2,14173,8.5,4.9,37.4,Ativo,0
+EMP0440,Tecnologia,Diretor,Geração X,57,16.4,61624,5.4,3.3,53.4,Ativo,0
+EMP0441,Compras,Diretor,Geração X,47,7.3,43116,6.3,3.4,38.5,Desligado,1
+EMP0442,Financeiro,Diretor,Geração Z,14,0.8,70103,7.4,3.8,57.8,Desligado,1
+EMP0443,Tecnologia,Pleno,Baby Boomer,68,22.7,6094,8.2,4.4,29.4,Desligado,1
+EMP0444,Financeiro,Júnior,Geração X,48,6.4,4608,6.0,3.4,44.6,Desligado,1
+EMP0445,Recursos Humanos,Gerente,Millennial,41,3.9,34784,5.9,3.6,35.0,Ativo,0
+EMP0446,Atendimento ao Cliente,Coordenador,Geração X,48,11.1,19783,6.9,4.3,40.2,Ativo,0
+EMP0447,Logística,Coordenador,Baby Boomer,72,17.2,13634,5.9,4.2,52.2,Ativo,0
+EMP0448,Operações,Pleno,Geração Z,16,0.6,5617,4.7,3.0,100.0,Ativo,0
+EMP0449,Tecnologia,Gerente,Millennial,31,0.8,24270,8.3,4.9,29.0,Ativo,0
+EMP0450,Compras,Coordenador,Geração X,47,1.3,18551,6.4,3.7,33.8,Ativo,0
+EMP0451,Atendimento ao Cliente,Diretor,Geração Z,13,0.4,50852,4.7,3.6,100.0,Ativo,0
+EMP0452,Financeiro,Gerente,Millennial,31,3.2,24312,5.2,3.7,46.7,Desligado,1
+EMP0453,Recursos Humanos,Gerente,Geração Z,14,0.6,29198,4.6,2.9,100.0,Desligado,1
+EMP0454,Recursos Humanos,Diretor,Millennial,41,2.5,38701,5.6,3.9,50.6,Desligado,1
+EMP0455,Financeiro,Júnior,Geração Z,21,2.6,3634,8.8,4.3,31.7,Ativo,0
+EMP0456,Jurídico,Pleno,Geração Z,25,5.7,7220,4.9,3.6,52.6,Ativo,0
+EMP0457,Operações,Diretor,Baby Boomer,71,6.0,57981,7.1,4.3,46.5,Desligado,1
+EMP0458,Recursos Humanos,Estagiário,Millennial,39,5.8,2242,4.7,3.1,45.3,Desligado,1
+EMP0459,Compras,Sênior,Millennial,36,1.6,13212,8.0,4.5,18.2,Ativo,0
+EMP0460,Qualidade,Diretor,Baby Boomer,74,15.7,58837,6.3,3.6,42.5,Desligado,1
+EMP0461,Logística,Estagiário,Geração X,53,5.7,1954,5.2,3.4,39.8,Ativo,0
+EMP0462,Financeiro,Diretor,Geração Z,14,0.6,64157,5.9,4.1,63.5,Desligado,1
+EMP0463,Operações,Coordenador,Baby Boomer,61,22.0,19785,7.8,4.1,56.9,Ativo,0
+EMP0464,Vendas,Gerente,Baby Boomer,78,5.6,27645,8.0,4.1,43.9,Desligado,1
+EMP0465,Jurídico,Estagiário,Baby Boomer,73,11.7,1726,5.2,3.6,54.0,Desligado,1
+EMP0466,Tecnologia,Sênior,Millennial,36,5.7,13814,6.7,3.9,23.8,Ativo,0
+EMP0467,Operações,Estagiário,Geração X,47,18.1,2156,6.5,4.4,59.2,Ativo,0
+EMP0468,Logística,Gerente,Geração X,60,9.3,33470,8.9,4.7,4.9,Ativo,0
+EMP0469,Jurídico,Gerente,Geração Z,16,0.7,28759,3.8,3.0,100.0,Desligado,1
+EMP0470,Recursos Humanos,Sênior,Geração Z,23,2.9,14377,4.0,3.4,62.1,Ativo,0
+EMP0471,Compras,Gerente,Geração X,51,21.0,33398,6.7,3.7,39.9,Desligado,1
+EMP0472,Financeiro,Gerente,Geração X,49,0.2,20725,5.5,3.2,59.4,Desligado,1
+EMP0473,Jurídico,Pleno,Geração X,54,16.3,8303,5.2,4.0,48.9,Ativo,0
+EMP0474,Compras,Pleno,Geração Z,28,4.2,7984,7.7,4.0,29.6,Ativo,0
+EMP0475,Jurídico,Sênior,Millennial,35,4.3,12203,8.0,4.0,12.6,Ativo,0
+EMP0476,Financeiro,Sênior,Geração Z,20,2.1,14222,8.6,4.2,27.8,Ativo,0
+EMP0477,Logística,Estagiário,Geração Z,19,0.2,1527,8.4,4.7,38.3,Ativo,0
+EMP0478,Financeiro,Júnior,Geração Z,15,0.0,4471,8.4,4.6,52.7,Ativo,0
+EMP0479,Financeiro,Júnior,Baby Boomer,75,2.5,3421,8.5,4.7,16.6,Desligado,1
+EMP0480,Qualidade,Gerente,Geração X,50,5.4,23534,4.5,3.1,61.5,Desligado,1
+EMP0481,Logística,Estagiário,Geração X,50,2.4,2260,8.0,4.8,14.4,Ativo,0
+EMP0482,Operações,Coordenador,Geração Z,19,0.5,17245,6.5,3.6,73.0,Desligado,1
+EMP0483,Tecnologia,Coordenador,Geração Z,24,1.3,12293,7.4,4.0,40.4,Ativo,0
+EMP0484,Atendimento ao Cliente,Pleno,Geração X,46,18.3,6630,5.0,3.6,83.8,Desligado,1
+EMP0485,Financeiro,Júnior,Millennial,35,3.7,3745,8.4,4.9,19.2,Ativo,0
+EMP0486,Qualidade,Júnior,Millennial,30,7.2,3850,6.8,4.5,29.5,Ativo,0
+EMP0487,Tecnologia,Júnior,Geração Z,28,6.9,4370,6.0,3.7,44.6,Ativo,0
+EMP0488,Operações,Estagiário,Geração Z,17,0.8,2364,6.3,3.8,74.6,Desligado,1
+EMP0489,Qualidade,Pleno,Geração X,52,16.1,6979,5.2,3.7,52.4,Ativo,0
+EMP0490,Compras,Sênior,Geração X,51,24.7,9167,5.9,3.8,41.5,Ativo,0
+EMP0491,Atendimento ao Cliente,Sênior,Geração X,55,9.9,11943,8.5,4.6,31.4,Desligado,1
+EMP0492,Vendas,Pleno,Geração X,54,11.5,8094,6.8,3.9,51.6,Ativo,0
+EMP0493,Compras,Júnior,Geração X,53,14.5,4653,7.1,3.7,31.8,Ativo,0
+EMP0494,Logística,Diretor,Baby Boomer,73,22.6,71021,6.8,4.1,45.5,Desligado,1
+EMP0495,Jurídico,Estagiário,Geração Z,19,0.2,2029,5.2,3.2,88.1,Ativo,0
+EMP0496,Atendimento ao Cliente,Diretor,Baby Boomer,61,3.0,36403,4.4,3.2,66.0,Ativo,0
+EMP0497,Qualidade,Estagiário,Millennial,34,6.6,1567,5.7,3.9,50.7,Ativo,0
+EMP0498,Compras,Diretor,Baby Boomer,69,18.0,68620,5.2,3.6,49.1,Desligado,1
+EMP0499,Logística,Júnior,Geração Z,24,4.6,4804,5.3,3.3,50.7,Ativo,0
+EMP0500,Recursos Humanos,Pleno,Millennial,30,4.0,7274,9.4,4.4,5.5,Ativo,0
+EMP0501,Tecnologia,Coordenador,Millennial,35,9.2,16922,7.6,4.0,19.9,Ativo,0
+EMP0502,Recursos Humanos,Diretor,Geração Z,17,0.3,67988,5.3,3.6,82.5,Desligado,1
+EMP0503,Tecnologia,Sênior,Geração Z,20,2.6,12110,9.0,5.0,26.2,Ativo,0
+EMP0504,Qualidade,Júnior,Geração Z,25,2.5,4852,3.8,3.4,63.0,Ativo,0
+EMP0505,Operações,Júnior,Geração X,60,2.5,4013,6.2,4.3,53.7,Desligado,1
+EMP0506,Compras,Gerente,Millennial,32,4.9,22671,7.0,3.8,39.6,Ativo,0
+EMP0507,Vendas,Coordenador,Baby Boomer,67,8.2,15292,3.6,3.4,86.5,Desligado,1
+EMP0508,Financeiro,Estagiário,Millennial,38,9.7,2227,5.3,3.9,55.7,Ativo,0
+EMP0509,Marketing,Pleno,Baby Boomer,79,14.1,6365,6.0,3.3,41.7,Ativo,0
+EMP0510,Jurídico,Pleno,Baby Boomer,69,17.9,6569,5.2,4.0,57.9,Desligado,1
+EMP0511,Recursos Humanos,Diretor,Geração X,57,24.0,39495,5.8,3.9,62.3,Ativo,0
+EMP0512,Operações,Coordenador,Geração Z,25,1.9,17206,5.6,3.8,71.6,Desligado,1
+EMP0513,Qualidade,Pleno,Geração X,53,13.6,5797,9.3,4.5,0.6,Ativo,0
+EMP0514,Marketing,Sênior,Millennial,33,1.1,11431,4.5,3.2,51.2,Ativo,0
+EMP0515,Compras,Gerente,Geração X,60,6.9,20640,7.7,4.3,29.8,Ativo,0
+EMP0516,Jurídico,Sênior,Baby Boomer,74,5.7,9066,8.4,4.3,19.4,Ativo,0
+EMP0517,Atendimento ao Cliente,Coordenador,Geração Z,13,0.9,14482,3.4,3.2,100.0,Desligado,1
+EMP0518,Atendimento ao Cliente,Pleno,Millennial,42,18.2,6063,6.6,4.1,53.3,Desligado,1
+EMP0519,Vendas,Diretor,Baby Boomer,66,9.1,71764,7.9,4.2,28.8,Desligado,1
+EMP0520,Logística,Diretor,Millennial,39,12.5,66098,6.9,3.6,21.5,Ativo,0
+EMP0521,Recursos Humanos,Júnior,Geração Z,16,0.2,3958,8.0,4.0,46.9,Desligado,1
+EMP0522,Compras,Estagiário,Baby Boomer,71,6.2,2153,8.9,5.0,5.7,Ativo,0
+EMP0523,Financeiro,Estagiário,Geração X,48,13.0,1837,5.1,3.6,52.9,Ativo,0
+EMP0524,Operações,Pleno,Geração X,54,24.1,6007,8.2,4.3,48.0,Ativo,0
+EMP0525,Marketing,Estagiário,Geração X,60,1.5,2389,6.8,4.2,36.0,Ativo,0
+EMP0526,Recursos Humanos,Júnior,Baby Boomer,75,10.4,4489,8.4,4.7,13.0,Ativo,0
+EMP0527,Recursos Humanos,Sênior,Geração Z,13,0.0,12358,7.0,4.4,66.7,Ativo,0
+EMP0528,Marketing,Pleno,Geração Z,19,0.8,7119,5.3,3.2,72.3,Ativo,0
+EMP0529,Marketing,Pleno,Geração Z,28,8.8,7548,6.5,3.9,50.6,Ativo,0
+EMP0530,Qualidade,Coordenador,Geração X,45,2.1,19380,5.2,4.0,54.2,Desligado,1
+EMP0531,Operações,Coordenador,Geração X,51,21.6,18392,7.9,4.8,44.2,Desligado,1
+EMP0532,Tecnologia,Júnior,Millennial,33,15.9,3153,6.2,3.6,39.5,Ativo,0
+EMP0533,Vendas,Estagiário,Geração Z,18,0.9,2415,8.9,4.9,58.8,Ativo,0
+EMP0534,Atendimento ao Cliente,Sênior,Baby Boomer,79,8.6,14652,7.6,4.7,30.5,Desligado,1
+EMP0535,Logística,Sênior,Geração Z,15,0.9,13840,4.1,3.4,90.4,Desligado,1
+EMP0536,Jurídico,Pleno,Geração Z,26,8.2,5685,7.4,4.6,40.5,Desligado,1
+EMP0537,Qualidade,Júnior,Millennial,38,0.4,4331,4.3,3.3,74.5,Desligado,1
+EMP0538,Compras,Gerente,Geração X,56,7.8,34162,5.3,3.4,46.8,Desligado,1
+EMP0539,Tecnologia,Estagiário,Geração Z,18,0.0,2000,9.0,4.9,44.1,Ativo,0
+EMP0540,Compras,Pleno,Baby Boomer,70,25.4,6139,6.7,3.9,50.0,Ativo,0
+EMP0541,Operações,Estagiário,Baby Boomer,70,18.8,2413,5.2,3.8,79.2,Ativo,0
+EMP0542,Atendimento ao Cliente,Estagiário,Geração X,58,13.5,2327,6.3,3.8,43.4,Desligado,1
+EMP0543,Recursos Humanos,Gerente,Baby Boomer,79,20.7,25123,4.3,3.6,61.4,Desligado,1
+EMP0544,Logística,Gerente,Baby Boomer,74,3.9,31537,6.4,4.0,35.1,Ativo,0
+EMP0545,Marketing,Diretor,Millennial,41,14.4,48702,7.1,3.7,21.0,Desligado,1
+EMP0546,Operações,Gerente,Geração Z,26,1.6,24766,4.8,3.4,85.6,Desligado,1
+EMP0547,Logística,Sênior,Geração X,45,14.2,11276,5.6,3.7,34.6,Ativo,0
+EMP0548,Recursos Humanos,Estagiário,Geração X,56,15.4,1784,5.8,3.4,48.7,Desligado,1
+EMP0549,Vendas,Júnior,Geração Z,23,2.8,4865,6.8,3.6,54.1,Ativo,0
+EMP0550,Logística,Pleno,Geração X,55,9.9,6877,7.8,4.8,20.9,Ativo,0
+EMP0551,Recursos Humanos,Coordenador,Baby Boomer,70,3.5,14319,4.9,3.9,47.4,Ativo,0
+EMP0552,Jurídico,Gerente,Geração Z,19,1.3,25492,4.7,3.8,56.1,Ativo,0
+EMP0553,Tecnologia,Coordenador,Geração X,52,3.5,19909,7.8,3.9,18.1,Ativo,0
+EMP0554,Qualidade,Gerente,Millennial,38,12.8,26248,4.8,3.0,59.5,Desligado,1
+EMP0555,Operações,Estagiário,Millennial,30,3.6,1629,4.2,2.8,100.0,Desligado,1
+EMP0556,Compras,Pleno,Baby Boomer,62,14.7,7769,8.8,4.7,17.7,Ativo,0
+EMP0557,Recursos Humanos,Gerente,Baby Boomer,77,9.6,25021,8.4,4.2,14.1,Ativo,0
+EMP0558,Tecnologia,Coordenador,Geração X,49,6.2,16469,6.0,4.1,39.5,Ativo,0
+EMP0559,Jurídico,Coordenador,Geração Z,26,2.8,18409,5.6,4.2,53.0,Ativo,0
+EMP0560,Atendimento ao Cliente,Coordenador,Baby Boomer,67,16.4,12834,5.0,3.8,69.0,Desligado,1
+EMP0561,Atendimento ao Cliente,Coordenador,Baby Boomer,77,7.0,14299,7.3,4.0,45.6,Ativo,0
+EMP0562,Atendimento ao Cliente,Estagiário,Geração X,52,8.0,2007,5.6,3.6,65.9,Ativo,0
+EMP0563,Marketing,Estagiário,Millennial,40,9.5,1896,6.0,4.1,41.0,Ativo,0
+EMP0564,Recursos Humanos,Diretor,Geração Z,23,3.5,35186,7.7,4.2,34.7,Desligado,1
+EMP0565,Compras,Gerente,Geração X,53,14.3,25886,6.8,3.5,23.0,Ativo,0
+EMP0566,Jurídico,Gerente,Geração X,51,3.2,26921,6.5,3.5,44.9,Ativo,0
+EMP0567,Financeiro,Coordenador,Geração Z,27,6.5,15315,9.1,4.3,25.7,Ativo,0
+EMP0568,Financeiro,Diretor,Baby Boomer,65,24.7,71310,9.1,4.5,17.4,Desligado,1
+EMP0569,Jurídico,Coordenador,Baby Boomer,79,6.5,13869,4.5,3.6,62.0,Ativo,0
+EMP0570,Vendas,Diretor,Geração X,51,21.5,76165,6.6,4.2,62.1,Desligado,1
+EMP0571,Operações,Sênior,Geração X,45,2.9,9316,7.4,4.4,47.8,Ativo,0
+EMP0572,Jurídico,Coordenador,Geração X,59,1.0,19681,7.3,4.5,23.2,Desligado,1
+EMP0573,Operações,Diretor,Millennial,32,6.8,45323,5.4,3.6,52.7,Ativo,0
+EMP0574,Qualidade,Júnior,Geração Z,24,5.8,3804,8.4,4.9,19.8,Ativo,0
+EMP0575,Jurídico,Gerente,Baby Boomer,76,3.3,19865,7.9,4.6,30.3,Ativo,0
+EMP0576,Logística,Diretor,Geração Z,26,8.2,60438,4.6,3.6,71.0,Desligado,1
+EMP0577,Marketing,Coordenador,Millennial,35,0.4,17463,8.9,5.0,29.7,Ativo,0
+EMP0578,Jurídico,Sênior,Geração X,52,17.0,13733,8.7,5.0,27.6,Ativo,0
+EMP0579,Marketing,Júnior,Geração X,60,24.3,4412,9.2,4.5,14.4,Ativo,0
+EMP0580,Tecnologia,Estagiário,Millennial,44,12.9,2246,7.0,4.5,31.7,Ativo,0
+EMP0581,Operações,Pleno,Geração X,46,21.2,6016,5.5,3.9,69.3,Ativo,0
+EMP0582,Compras,Estagiário,Geração Z,25,1.5,1999,6.1,3.5,59.2,Ativo,0
+EMP0583,Financeiro,Júnior,Baby Boomer,79,4.4,3279,8.8,4.8,8.0,Desligado,1
+EMP0584,Atendimento ao Cliente,Coordenador,Baby Boomer,78,18.6,13217,4.3,3.0,74.1,Desligado,1
+EMP0585,Logística,Júnior,Millennial,30,1.2,4780,7.1,3.8,32.2,Desligado,1
+EMP0586,Atendimento ao Cliente,Sênior,Baby Boomer,75,18.7,9109,8.7,4.9,32.4,Ativo,0
+EMP0587,Recursos Humanos,Júnior,Millennial,32,0.4,3530,5.5,3.5,70.7,Ativo,0
+EMP0588,Compras,Estagiário,Millennial,35,0.1,1781,5.1,3.7,67.5,Ativo,0
+EMP0589,Logística,Diretor,Baby Boomer,78,24.3,53963,4.6,3.6,70.2,Desligado,1
+EMP0590,Operações,Coordenador,Baby Boomer,63,3.3,19785,5.4,3.3,67.6,Desligado,1
+EMP0591,Qualidade,Diretor,Baby Boomer,73,4.2,47377,4.8,3.2,62.2,Desligado,1
+EMP0592,Financeiro,Diretor,Baby Boomer,75,24.6,44544,8.3,4.2,35.5,Ativo,0
+EMP0593,Marketing,Diretor,Baby Boomer,79,25.4,50484,6.3,4.1,51.2,Ativo,0
+EMP0594,Logística,Gerente,Baby Boomer,76,12.9,30239,7.6,4.2,27.5,Ativo,0
+EMP0595,Tecnologia,Coordenador,Geração X,53,12.6,17603,5.0,3.0,48.4,Desligado,1
+EMP0596,Tecnologia,Júnior,Baby Boomer,62,18.9,3577,7.4,3.8,40.2,Ativo,0
+EMP0597,Compras,Júnior,Baby Boomer,69,23.8,3732,8.5,4.1,17.8,Ativo,0
+EMP0598,Atendimento ao Cliente,Júnior,Baby Boomer,63,24.4,4008,3.8,3.2,90.2,Desligado,1
+EMP0599,Vendas,Júnior,Geração X,57,15.2,4987,8.7,4.3,22.3,Ativo,0
+EMP0600,Financeiro,Pleno,Baby Boomer,73,9.5,5592,7.1,4.3,26.5,Ativo,0
+EMP0601,Compras,Diretor,Millennial,30,1.9,59720,6.2,3.7,42.8,Ativo,0
+EMP0602,Operações,Júnior,Geração X,59,1.0,4164,7.8,4.6,43.0,Desligado,1
+EMP0603,Atendimento ao Cliente,Sênior,Baby Boomer,62,25.6,10068,7.8,4.4,42.8,Ativo,0
+EMP0604,Marketing,Gerente,Millennial,39,3.0,19613,5.2,3.5,42.1,Desligado,1
+EMP0605,Jurídico,Estagiário,Geração X,58,18.5,2091,8.0,4.5,31.7,Ativo,0
+EMP0606,Vendas,Diretor,Millennial,44,21.7,72509,4.6,3.0,77.4,Ativo,0
+EMP0607,Logística,Pleno,Baby Boomer,62,1.7,6126,8.9,5.0,8.8,Ativo,0
+EMP0608,Atendimento ao Cliente,Júnior,Millennial,31,3.8,4123,4.2,2.9,94.2,Ativo,0
+EMP0609,Marketing,Estagiário,Millennial,43,3.5,2155,7.3,4.2,31.3,Desligado,1
+EMP0610,Tecnologia,Gerente,Geração Z,14,0.4,30987,8.5,4.9,50.5,Desligado,1
+EMP0611,Financeiro,Júnior,Geração Z,21,0.0,3182,3.8,3.3,88.6,Desligado,1
+EMP0612,Operações,Coordenador,Millennial,35,3.4,19715,4.8,3.7,64.6,Ativo,0
+EMP0613,Vendas,Júnior,Geração Z,22,0.5,3652,6.3,3.9,84.2,Ativo,0
+EMP0614,Recursos Humanos,Sênior,Baby Boomer,66,3.5,9083,4.5,3.3,62.4,Ativo,0
+EMP0615,Logística,Gerente,Baby Boomer,62,10.0,29820,6.1,3.8,41.3,Ativo,0
+EMP0616,Qualidade,Sênior,Geração Z,28,5.3,10499,4.7,3.5,61.0,Ativo,0
+EMP0617,Logística,Diretor,Geração X,56,3.3,48209,7.0,3.9,23.4,Ativo,0
+EMP0618,Recursos Humanos,Júnior,Millennial,36,3.5,4670,9.2,5.0,5.4,Ativo,0
+EMP0619,Atendimento ao Cliente,Coordenador,Millennial,44,18.3,16148,8.2,4.3,46.7,Ativo,0
+EMP0620,Compras,Gerente,Millennial,34,16.1,34738,6.6,3.7,42.3,Ativo,0
+EMP0621,Recursos Humanos,Estagiário,Geração Z,17,0.5,2487,7.8,4.5,57.9,Ativo,0
+EMP0622,Compras,Sênior,Geração Z,14,0.7,13701,8.7,4.6,51.4,Ativo,0
+EMP0623,Financeiro,Estagiário,Millennial,42,24.5,2474,4.0,3.6,62.5,Ativo,0
+EMP0624,Logística,Sênior,Geração Z,25,3.1,13561,7.0,4.2,37.4,Ativo,0
+EMP0625,Vendas,Diretor,Geração X,47,14.3,41400,7.7,4.1,35.6,Ativo,0
+EMP0626,Operações,Diretor,Geração Z,23,2.7,52623,6.9,4.2,64.7,Ativo,0
+EMP0627,Qualidade,Pleno,Millennial,35,17.6,7718,9.3,4.8,24.9,Ativo,0
+EMP0628,Marketing,Diretor,Geração Z,16,0.9,38005,6.4,3.5,63.5,Ativo,0
+EMP0629,Tecnologia,Diretor,Millennial,30,5.2,49571,8.7,5.0,15.9,Ativo,0
+EMP0630,Jurídico,Sênior,Geração X,52,23.4,14704,6.9,4.4,48.7,Ativo,0
+EMP0631,Jurídico,Júnior,Geração X,51,8.8,4339,8.1,4.3,13.1,Ativo,0
+EMP0632,Jurídico,Estagiário,Baby Boomer,70,8.6,2225,8.8,4.3,15.6,Ativo,0
+EMP0633,Recursos Humanos,Júnior,Baby Boomer,66,12.9,4161,7.7,3.8,16.5,Ativo,0
+EMP0634,Marketing,Estagiário,Geração X,45,15.8,1867,5.5,3.6,42.7,Ativo,0
+EMP0635,Atendimento ao Cliente,Estagiário,Geração Z,27,4.6,2474,5.4,3.2,76.9,Ativo,0
+EMP0636,Compras,Pleno,Millennial,42,21.2,6185,4.6,3.8,65.7,Ativo,0
+EMP0637,Recursos Humanos,Júnior,Geração Z,26,3.1,4553,6.1,3.7,56.3,Ativo,0
+EMP0638,Compras,Diretor,Baby Boomer,70,2.4,73397,3.9,3.3,69.4,Desligado,1
+EMP0639,Logística,Júnior,Geração X,57,1.9,4251,4.5,3.4,57.0,Ativo,0
+EMP0640,Jurídico,Estagiário,Millennial,32,14.4,1897,4.6,3.0,59.6,Ativo,0
+EMP0641,Jurídico,Coordenador,Geração X,58,0.3,19576,5.2,3.9,60.4,Ativo,0
+EMP0642,Vendas,Estagiário,Baby Boomer,63,5.3,2206,8.2,4.4,30.5,Ativo,0
+EMP0643,Recursos Humanos,Gerente,Geração X,52,9.7,29024,5.2,3.9,52.2,Ativo,0
+EMP0644,Operações,Sênior,Baby Boomer,78,17.3,12424,7.7,4.2,50.4,Desligado,1
+EMP0645,Jurídico,Júnior,Geração Z,17,0.5,4676,8.3,4.0,44.1,Desligado,1
+EMP0646,Atendimento ao Cliente,Gerente,Geração X,57,4.3,19436,4.0,3.0,100.0,Desligado,1
+EMP0647,Vendas,Pleno,Baby Boomer,69,10.7,7736,7.6,3.9,28.9,Ativo,0
+EMP0648,Financeiro,Coordenador,Geração X,59,13.2,18473,8.3,4.5,23.0,Desligado,1
+EMP0649,Vendas,Coordenador,Geração X,47,16.2,15211,8.4,4.4,32.8,Ativo,0
+EMP0650,Financeiro,Estagiário,Geração Z,19,0.5,1633,7.7,4.3,47.5,Desligado,1
+EMP0651,Operações,Gerente,Geração Z,15,0.2,21260,6.4,4.4,90.4,Desligado,1
+EMP0652,Vendas,Gerente,Baby Boomer,73,18.3,34784,7.7,3.9,42.7,Ativo,0
+EMP0653,Vendas,Júnior,Geração Z,16,0.4,4685,7.0,4.3,76.6,Ativo,0
+EMP0654,Jurídico,Diretor,Baby Boomer,62,18.0,77766,6.5,4.4,43.1,Ativo,0
+EMP0655,Marketing,Coordenador,Baby Boomer,67,4.9,14302,7.8,4.5,27.0,Desligado,1
+EMP0656,Tecnologia,Gerente,Geração X,53,23.1,30335,7.0,4.4,36.1,Desligado,1
+EMP0657,Tecnologia,Diretor,Baby Boomer,73,3.4,46573,6.0,4.0,44.8,Ativo,0
+EMP0658,Compras,Pleno,Millennial,31,6.6,6217,8.6,4.9,17.3,Ativo,0
+EMP0659,Logística,Coordenador,Baby Boomer,76,18.8,19514,4.9,4.0,64.7,Ativo,0
+EMP0660,Compras,Estagiário,Baby Boomer,78,7.4,1978,7.2,3.9,22.9,Ativo,0
+EMP0661,Operações,Diretor,Geração Z,15,0.4,64572,7.9,4.3,61.5,Ativo,0
+EMP0662,Compras,Diretor,Millennial,40,19.3,57444,5.3,4.1,57.5,Ativo,0
+EMP0663,Recursos Humanos,Estagiário,Geração X,50,25.9,2206,6.4,4.4,45.1,Ativo,0
+EMP0664,Logística,Pleno,Geração X,50,13.6,7213,6.2,3.5,33.7,Ativo,0
+EMP0665,Marketing,Júnior,Baby Boomer,61,14.5,3864,6.1,3.6,45.9,Ativo,0
+EMP0666,Recursos Humanos,Júnior,Geração X,53,1.3,4580,7.3,4.3,18.5,Ativo,0
+EMP0667,Compras,Júnior,Millennial,29,10.0,3889,3.8,2.9,97.1,Desligado,1
+EMP0668,Atendimento ao Cliente,Pleno,Baby Boomer,73,16.3,6222,7.0,4.4,58.5,Desligado,1
+EMP0669,Operações,Júnior,Millennial,42,7.9,4301,8.0,4.8,28.6,Ativo,0
+EMP0670,Logística,Gerente,Millennial,44,9.6,25072,6.7,3.8,34.5,Ativo,0
+EMP0671,Jurídico,Coordenador,Millennial,32,10.0,14585,7.2,4.4,36.7,Ativo,0
+EMP0672,Recursos Humanos,Coordenador,Millennial,41,8.5,17159,8.0,4.6,25.8,Ativo,0
+EMP0673,Qualidade,Estagiário,Millennial,32,1.5,2176,6.7,3.7,32.5,Ativo,0
+EMP0674,Atendimento ao Cliente,Estagiário,Millennial,32,5.2,2349,5.7,3.3,67.0,Desligado,1
+EMP0675,Atendimento ao Cliente,Estagiário,Millennial,34,13.7,1654,7.9,4.1,33.1,Ativo,0
+EMP0676,Compras,Sênior,Baby Boomer,69,11.4,9654,8.1,4.3,16.7,Ativo,0
+EMP0677,Recursos Humanos,Estagiário,Geração Z,27,9.5,1506,6.4,4.3,50.2,Ativo,0
+EMP0678,Marketing,Coordenador,Millennial,35,3.8,12885,5.6,4.1,47.3,Ativo,0
+EMP0679,Jurídico,Pleno,Millennial,42,21.1,6033,8.1,4.5,19.4,Desligado,1
+EMP0680,Financeiro,Gerente,Millennial,41,16.6,18956,4.7,3.2,67.9,Ativo,0
+EMP0681,Operações,Pleno,Geração X,58,6.2,6360,5.6,3.5,51.2,Desligado,1
+EMP0682,Financeiro,Gerente,Millennial,30,11.3,29624,8.4,4.3,23.4,Ativo,0
+EMP0683,Compras,Coordenador,Geração Z,19,1.8,17795,5.6,4.1,46.8,Ativo,0
+EMP0684,Marketing,Diretor,Baby Boomer,79,13.7,54144,7.6,3.9,19.7,Desligado,1
+EMP0685,Vendas,Diretor,Millennial,37,10.7,61212,4.2,3.7,63.8,Desligado,1
+EMP0686,Vendas,Coordenador,Geração X,46,19.2,17687,5.7,3.4,70.2,Ativo,0
+EMP0687,Recursos Humanos,Estagiário,Geração Z,15,0.8,1853,6.6,3.5,73.4,Ativo,0
+EMP0688,Vendas,Diretor,Geração Z,19,0.8,61129,8.3,4.9,61.2,Ativo,0
+EMP0689,Compras,Júnior,Geração X,47,10.9,4776,7.5,3.9,33.6,Ativo,0
+EMP0690,Qualidade,Gerente,Baby Boomer,75,1.1,34260,8.1,4.4,10.3,Ativo,0
+EMP0691,Qualidade,Sênior,Geração Z,16,1.0,11438,8.2,4.3,48.6,Ativo,0
+EMP0692,Jurídico,Júnior,Geração X,47,18.0,3944,6.7,4.0,47.6,Desligado,1
+EMP0693,Recursos Humanos,Diretor,Geração Z,16,0.4,66393,4.7,3.8,86.3,Ativo,0
+EMP0694,Atendimento ao Cliente,Sênior,Geração Z,18,0.5,14909,5.9,3.5,94.1,Ativo,0
+EMP0695,Atendimento ao Cliente,Coordenador,Millennial,36,17.0,16466,6.6,4.3,60.3,Ativo,0
+EMP0696,Operações,Coordenador,Geração X,54,25.3,18844,6.7,3.7,54.6,Ativo,0
+EMP0697,Marketing,Gerente,Millennial,34,1.7,30361,4.3,3.1,53.9,Ativo,0
+EMP0698,Qualidade,Diretor,Millennial,34,9.1,52933,6.9,3.6,39.0,Ativo,0
+EMP0699,Vendas,Diretor,Geração Z,14,0.2,35666,7.4,4.4,79.4,Desligado,1
+EMP0700,Jurídico,Gerente,Baby Boomer,64,25.5,24863,6.6,3.7,46.4,Ativo,0
+EMP0701,Recursos Humanos,Coordenador,Geração Z,17,0.8,16863,5.4,3.1,66.2,Desligado,1
+EMP0702,Logística,Coordenador,Geração X,49,18.3,15705,8.8,4.8,18.5,Ativo,0
+EMP0703,Compras,Pleno,Baby Boomer,76,8.5,6975,7.6,4.2,22.7,Desligado,1
+EMP0704,Operações,Coordenador,Geração X,49,12.9,19409,4.7,3.8,78.0,Ativo,0
+EMP0705,Atendimento ao Cliente,Júnior,Millennial,38,12.5,3817,7.7,4.7,28.6,Ativo,0
+EMP0706,Marketing,Pleno,Geração Z,16,0.5,5580,7.3,4.3,58.8,Ativo,0
+EMP0707,Atendimento ao Cliente,Sênior,Geração X,50,20.4,10377,5.0,3.3,84.8,Ativo,0
+EMP0708,Operações,Gerente,Baby Boomer,67,15.7,34869,8.1,4.8,34.3,Ativo,0
+EMP0709,Logística,Coordenador,Millennial,40,15.8,16294,6.0,4.2,45.1,Ativo,0
+EMP0710,Tecnologia,Coordenador,Millennial,30,12.2,14378,5.4,3.7,49.3,Desligado,1
+EMP0711,Compras,Coordenador,Baby Boomer,75,16.6,16013,5.6,4.2,49.2,Desligado,1
+EMP0712,Compras,Sênior,Geração X,58,19.4,9908,5.5,3.8,60.8,Ativo,0
+EMP0713,Tecnologia,Sênior,Baby Boomer,75,24.8,10482,5.5,4.1,55.4,Ativo,0
+EMP0714,Logística,Sênior,Baby Boomer,66,6.6,14578,7.6,4.2,16.6,Ativo,0
+EMP0715,Logística,Júnior,Geração Z,21,3.8,3795,7.3,4.2,45.4,Desligado,1
+EMP0716,Compras,Gerente,Geração X,56,19.1,18496,7.9,4.3,38.8,Ativo,0
+EMP0717,Recursos Humanos,Estagiário,Geração Z,13,0.2,1733,4.0,3.4,82.8,Desligado,1
+EMP0718,Recursos Humanos,Sênior,Geração X,51,25.4,9253,6.4,4.2,51.3,Ativo,0
+EMP0719,Qualidade,Sênior,Baby Boomer,65,3.7,14281,6.3,4.1,29.9,Desligado,1
+EMP0720,Logística,Pleno,Geração X,50,24.1,5536,4.5,3.5,63.7,Desligado,1
+EMP0721,Atendimento ao Cliente,Diretor,Geração Z,17,0.4,69476,6.9,3.8,68.4,Desligado,1
+EMP0722,Qualidade,Gerente,Geração Z,24,0.7,26094,5.2,3.6,76.0,Desligado,1
+EMP0723,Atendimento ao Cliente,Diretor,Baby Boomer,73,8.2,49402,3.9,3.2,71.2,Desligado,1
+EMP0724,Vendas,Coordenador,Baby Boomer,69,21.7,12043,8.4,4.7,33.1,Ativo,0
+EMP0725,Vendas,Gerente,Geração Z,24,0.9,21347,3.6,3.0,100.0,Ativo,0
+EMP0726,Jurídico,Diretor,Baby Boomer,71,0.1,46741,6.2,4.3,64.3,Ativo,0
+EMP0727,Qualidade,Sênior,Millennial,39,9.3,14219,7.1,4.2,37.3,Ativo,0
+EMP0728,Marketing,Pleno,Geração X,52,9.1,6067,6.0,3.8,38.7,Ativo,0
+EMP0729,Logística,Diretor,Geração X,56,1.7,66187,6.8,3.9,41.3,Desligado,1
+EMP0730,Jurídico,Pleno,Baby Boomer,75,14.3,6051,4.5,3.3,61.5,Ativo,0
+EMP0731,Financeiro,Júnior,Millennial,44,2.8,4660,6.1,3.8,38.9,Desligado,1
+EMP0732,Atendimento ao Cliente,Gerente,Millennial,35,11.1,32230,6.8,4.3,52.8,Ativo,0
+EMP0733,Tecnologia,Júnior,Millennial,41,13.6,4364,7.4,3.9,27.8,Ativo,0
+EMP0734,Marketing,Júnior,Geração X,49,5.4,3805,5.5,3.7,47.0,Ativo,0
+EMP0735,Recursos Humanos,Pleno,Geração Z,19,1.7,7794,5.3,4.1,63.9,Desligado,1
+EMP0736,Qualidade,Diretor,Geração Z,27,5.9,48584,5.6,3.8,64.2,Ativo,0
+EMP0737,Compras,Pleno,Millennial,34,6.7,8250,5.4,3.5,40.3,Ativo,0
+EMP0738,Qualidade,Pleno,Millennial,43,15.6,7074,9.1,4.4,16.4,Ativo,0
+EMP0739,Marketing,Gerente,Baby Boomer,75,6.8,30902,8.3,4.0,14.8,Ativo,0
+EMP0740,Atendimento ao Cliente,Júnior,Geração Z,28,3.5,4841,8.5,4.3,48.6,Desligado,1
+EMP0741,Atendimento ao Cliente,Pleno,Geração Z,27,1.5,6171,4.1,3.2,83.1,Desligado,1
+EMP0742,Qualidade,Sênior,Baby Boomer,62,14.7,10773,7.4,3.7,17.2,Ativo,0
+EMP0743,Logística,Estagiário,Geração Z,23,0.9,1917,6.9,4.5,62.7,Desligado,1
+EMP0744,Qualidade,Júnior,Geração Z,19,0.1,3167,8.5,4.5,39.7,Ativo,0
+EMP0745,Recursos Humanos,Sênior,Geração Z,21,2.6,9370,8.0,4.2,25.7,Desligado,1
+EMP0746,Jurídico,Coordenador,Millennial,30,4.7,14016,7.0,4.5,27.2,Ativo,0
+EMP0747,Logística,Júnior,Geração Z,26,6.4,3232,6.4,4.1,52.1,Ativo,0
+EMP0748,Atendimento ao Cliente,Estagiário,Baby Boomer,64,18.4,2154,5.6,3.2,70.4,Desligado,1
+EMP0749,Atendimento ao Cliente,Diretor,Baby Boomer,64,9.9,51265,4.5,2.9,91.5,Desligado,1
+EMP0750,Atendimento ao Cliente,Júnior,Baby Boomer,74,25.5,3743,5.6,3.7,68.8,Desligado,1
+EMP0751,Atendimento ao Cliente,Pleno,Millennial,33,3.9,6884,7.1,4.0,53.9,Ativo,0
+EMP0752,Logística,Sênior,Geração Z,20,2.1,11416,8.7,4.1,22.7,Ativo,0
+EMP0753,Atendimento ao Cliente,Estagiário,Geração Z,17,0.4,1881,6.7,3.6,74.7,Desligado,1
+EMP0754,Operações,Pleno,Geração Z,27,6.5,5841,6.4,3.4,71.2,Ativo,0
+EMP0755,Qualidade,Gerente,Baby Boomer,63,14.4,26799,6.9,4.2,31.7,Ativo,0
+EMP0756,Operações,Pleno,Millennial,31,9.4,7052,7.7,4.7,43.3,Desligado,1
+EMP0757,Operações,Júnior,Geração Z,18,0.4,4097,7.9,4.0,56.2,Desligado,1
+EMP0758,Operações,Estagiário,Millennial,35,8.2,2166,6.8,3.8,38.6,Ativo,0
+EMP0759,Qualidade,Diretor,Baby Boomer,72,22.0,55565,8.1,4.7,23.2,Desligado,1
+EMP0760,Vendas,Gerente,Geração Z,16,0.1,20100,6.7,3.6,80.8,Desligado,1
+EMP0761,Logística,Júnior,Geração X,48,10.0,4762,8.6,4.1,12.1,Ativo,0
+EMP0762,Marketing,Júnior,Baby Boomer,71,16.3,4484,8.0,4.2,31.7,Desligado,1
+EMP0763,Atendimento ao Cliente,Pleno,Geração Z,14,0.2,8022,7.8,3.8,74.5,Ativo,0
+EMP0764,Marketing,Sênior,Baby Boomer,74,14.0,9579,5.3,3.9,38.3,Ativo,0
+EMP0765,Recursos Humanos,Júnior,Baby Boomer,71,25.7,3122,4.4,3.1,61.6,Ativo,0
+EMP0766,Tecnologia,Coordenador,Baby Boomer,75,13.5,17173,6.8,3.6,30.3,Ativo,0
+EMP0767,Operações,Pleno,Baby Boomer,77,12.8,7336,7.4,4.4,30.9,Ativo,0
+EMP0768,Marketing,Coordenador,Millennial,37,2.8,17090,5.9,3.4,47.1,Desligado,1
+EMP0769,Jurídico,Gerente,Geração X,55,18.3,25343,8.7,4.8,29.0,Desligado,1
+EMP0770,Atendimento ao Cliente,Estagiário,Baby Boomer,61,19.9,2286,7.9,4.3,36.3,Desligado,1
+EMP0771,Financeiro,Gerente,Millennial,38,10.1,27612,4.9,3.0,50.6,Desligado,1
+EMP0772,Vendas,Sênior,Millennial,39,5.2,12523,7.9,4.7,33.4,Ativo,0
+EMP0773,Compras,Diretor,Millennial,35,7.8,46076,5.8,3.5,50.3,Ativo,0
+EMP0774,Operações,Diretor,Geração Z,20,1.6,64704,4.4,3.8,74.0,Ativo,0
+EMP0775,Marketing,Gerente,Baby Boomer,79,5.5,34112,5.1,3.8,49.0,Desligado,1
+EMP0776,Atendimento ao Cliente,Júnior,Geração Z,22,0.3,3078,6.8,3.7,73.7,Ativo,0
+EMP0777,Qualidade,Gerente,Baby Boomer,65,18.2,28705,8.7,4.4,18.1,Ativo,0
+EMP0778,Tecnologia,Sênior,Geração X,49,9.1,9368,5.9,3.8,35.8,Ativo,0
+EMP0779,Marketing,Sênior,Baby Boomer,70,16.0,14515,8.1,4.4,23.1,Ativo,0
+EMP0780,Recursos Humanos,Sênior,Millennial,33,12.8,12878,5.7,3.6,51.4,Desligado,1
+EMP0781,Logística,Sênior,Millennial,30,1.5,14570,6.4,3.5,30.1,Ativo,0
+EMP0782,Financeiro,Sênior,Millennial,31,10.6,9598,8.9,4.3,11.8,Ativo,0
+EMP0783,Recursos Humanos,Estagiário,Millennial,41,14.0,1919,7.2,3.7,35.4,Ativo,0
+EMP0784,Operações,Estagiário,Geração X,45,7.7,2350,8.4,4.4,29.1,Ativo,0
+EMP0785,Qualidade,Coordenador,Millennial,32,6.0,15793,5.7,4.1,38.0,Ativo,0
+EMP0786,Atendimento ao Cliente,Coordenador,Millennial,38,16.6,12358,4.2,3.7,75.7,Desligado,1
+EMP0787,Logística,Júnior,Baby Boomer,61,15.2,3530,4.9,3.3,61.0,Desligado,1
+EMP0788,Financeiro,Diretor,Baby Boomer,65,12.6,78101,5.9,3.9,49.9,Ativo,0
+EMP0789,Logística,Gerente,Baby Boomer,74,19.0,31353,4.7,3.1,59.1,Ativo,0
+EMP0790,Logística,Júnior,Geração X,45,20.3,3055,5.5,4.1,54.7,Ativo,0
+EMP0791,Marketing,Coordenador,Geração Z,24,6.5,17198,5.7,3.9,43.3,Ativo,0
+EMP0792,Jurídico,Gerente,Geração X,45,11.9,27964,6.8,4.0,23.2,Ativo,0
+EMP0793,Atendimento ao Cliente,Coordenador,Geração X,48,17.0,14315,3.5,2.6,100.0,Desligado,1
+EMP0794,Compras,Estagiário,Geração X,49,18.0,2446,4.2,3.4,67.7,Desligado,1
+EMP0795,Qualidade,Gerente,Geração X,45,4.1,20844,4.4,2.9,71.2,Desligado,1
+EMP0796,Atendimento ao Cliente,Estagiário,Geração Z,25,6.2,2423,3.9,3.2,91.5,Desligado,1
+EMP0797,Vendas,Pleno,Geração X,47,17.8,8033,4.1,3.0,91.3,Ativo,0
+EMP0798,Jurídico,Júnior,Geração Z,16,0.4,3927,5.2,3.5,83.9,Desligado,1
+EMP0799,Atendimento ao Cliente,Diretor,Geração Z,27,2.9,50978,6.1,4.1,67.8,Desligado,1
+EMP0800,Qualidade,Estagiário,Millennial,32,8.1,2051,5.7,3.4,53.0,Ativo,0

@@ -1,0 +1,9 @@
+metrica,valor,descricao,categoria
+Salário Médio (R$),17772.0,Salário médio dos funcionários ativos,Compensação
+Engajamento Médio,6.8,Score médio de engajamento dos funcionários ativos,Engajamento
+Funcionários Ativos,542.0,Número de funcionários atualmente ativos,Geral
+Total de Funcionários,800.0,Número total de funcionários na base de dados,Geral
+Tempo de Casa Médio (Anos),9.9,Tempo médio de casa dos funcionários ativos,Retenção
+Funcionários Alto Risco,57.0,Número de funcionários com alto risco de turnover,Risco
+Taxa Turnover Voluntário (%),21.25,Percentual de turnover voluntário sobre o total,Turnover
+Taxa de Turnover (%),32.25,Percentual de funcionários que deixaram a empresa,Turnover
