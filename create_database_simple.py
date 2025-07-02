@@ -10,13 +10,12 @@ import random
 from datetime import datetime, timedelta
 import logging
 
-# Configurar logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# Configurar Faker para Brasil
+
 fake = Faker('pt_BR')
-random.seed(42)  # Para resultados reproduzíveis
+random.seed(42)  
 np.random.seed(42)
 
 def create_employee_data():
@@ -35,7 +34,6 @@ def create_employee_data():
         'Geração Z': (1997, 2012)
     }
     
-    # Probabilidades de turnover por departamento (realistas)
     turnover_rates = {
         'Atendimento ao Cliente': 0.45,
         'Operações': 0.40,
@@ -53,29 +51,25 @@ def create_employee_data():
     employees = []
     
     for i in range(800):
-        # Dados básicos
         departamento = random.choice(departamentos)
         
-        # Geração (distribuição realista)
         geracao = np.random.choice(
             list(geracoes.keys()), 
-            p=[0.08, 0.25, 0.50, 0.17]  # Baby Boomer, X, Millennial, Z
+            p=[0.08, 0.25, 0.50, 0.17]  
         )
         
         ano_nascimento = random.randint(geracoes[geracao][0], geracoes[geracao][1])
         idade = 2025 - ano_nascimento
         
-        # Tempo de casa baseado na geração
         if geracao == 'Geração Z':
             tempo_casa = round(random.uniform(0.2, 4.0), 1)
         elif geracao == 'Millennial':
             tempo_casa = round(random.uniform(0.5, 12.0), 1)
         elif geracao == 'Geração X':
             tempo_casa = round(random.uniform(2.0, 25.0), 1)
-        else:  # Baby Boomer
+        else: 
             tempo_casa = round(random.uniform(10.0, 35.0), 1)
         
-        # Nível e salário
         nivel = np.random.choice(
             ['Júnior', 'Pleno', 'Sênior', 'Gerente', 'Diretor'], 
             p=[0.35, 0.30, 0.20, 0.12, 0.03]
@@ -89,7 +83,7 @@ def create_employee_data():
             'Diretor': random.randint(22000, 60000)
         }[nivel]
         
-        # Multiplicador salarial por departamento
+        
         multiplicador = {
             'Tecnologia': 1.3, 'Financeiro': 1.2, 'Jurídico': 1.25,
             'Marketing': 1.1, 'Vendas': 1.15, 'Recursos Humanos': 1.0,
@@ -99,7 +93,6 @@ def create_employee_data():
         
         salario = int(salario_base * multiplicador)
         
-        # Engajamento base por departamento
         engajamento_base = {
             'Atendimento ao Cliente': 5.5, 'Vendas': 6.0, 'Operações': 5.8,
             'Logística': 6.2, 'Marketing': 7.2, 'Tecnologia': 7.5,
@@ -107,7 +100,6 @@ def create_employee_data():
             'Qualidade': 6.5, 'Jurídico': 7.1
         }[departamento]
         
-        # Ajustar engajamento por tempo de casa
         if tempo_casa < 1:
             fator_tempo = 0.8
         elif tempo_casa < 3:
@@ -122,15 +114,12 @@ def create_employee_data():
         engajamento = round(max(1, min(10, 
             np.random.normal(engajamento_base * fator_tempo, 1.2))), 1)
         
-        # Performance correlacionada com engajamento
         performance_base = 1 + (engajamento - 1) * (4/9) * 0.6
         performance = round(max(1, min(5, 
             performance_base + np.random.normal(0, 0.4))), 1)
         
-        # Determinar se está ativo baseado em probabilidades
         prob_turnover = turnover_rates[departamento]
         
-        # Ajustar probabilidade por engajamento
         if engajamento < 4:
             prob_turnover *= 2.5
         elif engajamento < 6:
@@ -138,7 +127,6 @@ def create_employee_data():
         elif engajamento > 8:
             prob_turnover *= 0.5
         
-        # Ajustar por geração
         multiplicador_geracao = {
             'Geração Z': 1.8, 'Millennial': 1.2, 
             'Geração X': 0.9, 'Baby Boomer': 0.6
@@ -147,7 +135,7 @@ def create_employee_data():
         
         is_ativo = random.random() > prob_turnover
         
-        # Dados de desligamento
+       
         if not is_ativo:
             tipo_desligamento = 'Voluntário' if random.random() < 0.7 else 'Involuntário'
             data_desligamento = fake.date_between(start_date='-2y', end_date='today')
@@ -156,7 +144,7 @@ def create_employee_data():
             tipo_desligamento = None
             data_desligamento = None
             
-            # Score de risco para ativos
+           
             risco_base = max(0, 100 - (engajamento * 10))
             fatores_risco = 0
             
@@ -176,7 +164,6 @@ def create_employee_data():
             score_risco = round(min(100, max(0, 
                 risco_base + fatores_risco + np.random.normal(0, 10))), 1)
         
-        # Tendência de engajamento
         if engajamento < 5:
             tendencia = 'Declinando'
         elif engajamento > 7.5:
@@ -184,7 +171,6 @@ def create_employee_data():
         else:
             tendencia = 'Estável'
         
-        # Data de admissão
         data_admissao = fake.date_between(
             start_date=f'-{int(tempo_casa*365)}d', 
             end_date=f'-{max(0, int((tempo_casa-0.5)*365))}d'
@@ -214,28 +200,22 @@ def create_employee_data():
     return pd.DataFrame(employees)
 
 def create_tables_and_insert_data():
-    """Criar tabelas e inserir dados no PostgreSQL"""
-    
-    # Conectar ao banco
+
     database_url = os.getenv('DATABASE_URL') or 'postgresql://neondb_owner:npg_NsgmbIhUt1j6@ep-round-sound-a5mjdo64.us-east-2.aws.neon.tech:5432/neondb'
     engine = create_engine(database_url)
     
     logger.info("✅ Conectado ao PostgreSQL")
     
-    # Gerar dados
     df = create_employee_data()
     logger.info(f"✅ Gerados {len(df)} funcionários")
     
-    # Criar tabelas
     with engine.connect() as conn:
-        # Limpar tabelas existentes
         conn.execute(text("DROP TABLE IF EXISTS funcionarios CASCADE"))
         conn.execute(text("DROP VIEW IF EXISTS funcionarios_alto_risco CASCADE"))
         conn.execute(text("DROP TABLE IF EXISTS metricas_departamento CASCADE"))
         conn.execute(text("DROP TABLE IF EXISTS metricas_geracao CASCADE"))
         conn.execute(text("DROP TABLE IF EXISTS resumo_executivo CASCADE"))
-        
-        # Criar tabela principal
+
         create_table_sql = """
         CREATE TABLE funcionarios (
             id_funcionario VARCHAR(20) PRIMARY KEY,
@@ -261,13 +241,11 @@ def create_tables_and_insert_data():
         
         logger.info("✅ Tabela funcionarios criada")
     
-    # Inserir dados usando pandas
+    
     df.to_sql('funcionarios', engine, if_exists='append', index=False)
     logger.info("✅ Dados inseridos na tabela funcionarios")
     
-    # Criar tabelas analíticas
     with engine.connect() as conn:
-        # Métricas por departamento
         conn.execute(text("""
             CREATE TABLE metricas_departamento AS
             SELECT 
@@ -293,7 +271,6 @@ def create_tables_and_insert_data():
             ORDER BY taxa_turnover DESC;
         """))
         
-        # Métricas por geração
         conn.execute(text("""
             CREATE TABLE metricas_geracao AS
             SELECT 
@@ -313,7 +290,6 @@ def create_tables_and_insert_data():
             ORDER BY taxa_turnover DESC;
         """))
         
-        # View de funcionários de alto risco
         conn.execute(text("""
             CREATE VIEW funcionarios_alto_risco AS
             SELECT 
@@ -346,7 +322,6 @@ def create_tables_and_insert_data():
             ORDER BY score_risco_turnover DESC;
         """))
         
-        # Resumo executivo
         conn.execute(text("""
             CREATE TABLE resumo_executivo AS
             SELECT 
@@ -402,7 +377,6 @@ def create_tables_and_insert_data():
         conn.commit()
         logger.info("✅ Tabelas analíticas criadas")
     
-    # Relatório final
     with engine.connect() as conn:
         kpis = pd.read_sql("SELECT metrica, valor FROM resumo_executivo", conn)
         alto_risco = pd.read_sql("SELECT COUNT(*) as total FROM funcionarios_alto_risco", conn)

@@ -1,10 +1,3 @@
-"""
-People Analytics - Case Bern
-Script principal para criar base de dados PostgreSQL para análise no Power BI
-
-Objetivo: Investigar padrões de engajamento e turnover para decisões estratégicas de retenção
-"""
-
 import pandas as pd
 import numpy as np
 import psycopg2
@@ -16,11 +9,10 @@ import os
 from datetime import datetime, timedelta
 import logging
 
-# Configurar logging
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# Configurar Faker para Brasil
 fake = Faker('pt_BR')
 
 class BernPeopleAnalytics:
@@ -38,8 +30,7 @@ class BernPeopleAnalytics:
             
             self.engine = create_engine(database_url)
             logger.info("✅ Conexão com PostgreSQL estabelecida")
-            
-            # Testar conexão
+
             if self.engine:
                 with self.engine.connect() as conn:
                     conn.execute(text("SELECT 1"))
@@ -54,67 +45,58 @@ class BernPeopleAnalytics:
         Gerar dataset realista de funcionários brasileiros com padrões de engajamento
         """
         logger.info(f"🔄 Gerando dados de {num_employees} funcionários...")
-        
-        # Definir departamentos brasileiros realistas
+
         departamentos = [
             'Atendimento ao Cliente', 'Vendas', 'Marketing', 'Tecnologia', 
             'Recursos Humanos', 'Financeiro', 'Operações', 'Compras',
             'Qualidade', 'Logística', 'Jurídico'
         ]
-        
-        # Definir gerações
+
         geracoes = {
             'Baby Boomer': (1946, 1964),
             'Geração X': (1965, 1980), 
             'Millennial': (1981, 1996),
             'Geração Z': (1997, 2012)
         }
-        
-        # Configurar pesos realistas para turnover por departamento
+
         turnover_weights = {
-            'Atendimento ao Cliente': 0.45,  # Alto stress, alta rotatividade
-            'Vendas': 0.38,                  # Pressão por resultados
-            'Operações': 0.40,               # Trabalho operacional
-            'Logística': 0.35,               # Físico, horários
-            'Marketing': 0.25,               # Criativo, engajamento médio
-            'Tecnologia': 0.23,              # Alta demanda, boa retenção
-            'Recursos Humanos': 0.32,        # Burnout médio
-            'Financeiro': 0.21,              # Estabilidade
-            'Compras': 0.18,                 # Processos, estabilidade
-            'Qualidade': 0.30,               # Processos rígidos
-            'Jurídico': 0.15                 # Alta especialização, baixo turnover
+            'Atendimento ao Cliente': 0.45,  
+            'Vendas': 0.38,                  
+            'Operações': 0.40,               
+            'Logística': 0.35,               
+            'Marketing': 0.25,               
+            'Tecnologia': 0.23,              
+            'Recursos Humanos': 0.32,        
+            'Financeiro': 0.21,              
+            'Compras': 0.18,                
+            'Qualidade': 0.30,               
+            'Jurídico': 0.15                
         }
         
         employees = []
         
         for i in range(num_employees):
-            # Dados básicos
             nome = fake.name()
             departamento = random.choice(departamentos)
-            
-            # Determinar geração baseada em distribuição realista
-            geracao_weights = [0.08, 0.25, 0.50, 0.17]  # Baby Boomer, X, Millennial, Z
+
+            geracao_weights = [0.08, 0.25, 0.50, 0.17]  
             geracao = np.random.choice(list(geracoes.keys()), p=geracao_weights)
-            
-            # Calcular idade baseada na geração
+
             ano_nascimento = random.randint(geracoes[geracao][0], geracoes[geracao][1])
             idade = 2025 - ano_nascimento
-            
-            # Tempo de casa (anos) - correlacionado com idade
+
             if geracao == 'Geração Z':
                 tempo_casa = random.uniform(0.2, 4.0)
             elif geracao == 'Millennial':
                 tempo_casa = random.uniform(0.5, 12.0)
             elif geracao == 'Geração X':
                 tempo_casa = random.uniform(2.0, 25.0)
-            else:  # Baby Boomer
+            else:  
                 tempo_casa = random.uniform(10.0, 35.0)
             
-            # Nível hierárquico
             nivel_cargo = np.random.choice(['Júnior', 'Pleno', 'Sênior', 'Gerente', 'Diretor'], 
                                          p=[0.35, 0.30, 0.20, 0.12, 0.03])
             
-            # Salário baseado no nível e departamento
             salario_base = {
                 'Júnior': random.randint(3000, 6000),
                 'Pleno': random.randint(5500, 9500),
@@ -123,7 +105,6 @@ class BernPeopleAnalytics:
                 'Diretor': random.randint(22000, 60000)
             }
             
-            # Multiplicador por departamento
             dept_multiplier = {
                 'Tecnologia': 1.3, 'Financeiro': 1.2, 'Jurídico': 1.25,
                 'Marketing': 1.1, 'Vendas': 1.15, 'Recursos Humanos': 1.0,
@@ -133,7 +114,6 @@ class BernPeopleAnalytics:
             
             salario = int(salario_base[nivel_cargo] * dept_multiplier.get(departamento, 1.0))
             
-            # Score de engajamento (1-10) - influenciado por departamento e tempo de casa
             base_engagement = {
                 'Atendimento ao Cliente': 5.5,
                 'Vendas': 6.0,
@@ -148,31 +128,27 @@ class BernPeopleAnalytics:
                 'Jurídico': 7.1
             }
             
-            # Ajustar engajamento por tempo de casa (curva U invertida)
             if tempo_casa < 1:
-                time_factor = 0.8  # Honeymoon period mas ainda adaptando
+                time_factor = 0.8 
             elif tempo_casa < 3:
-                time_factor = 1.1  # Período de maior engajamento
+                time_factor = 1.1  
             elif tempo_casa < 7:
-                time_factor = 1.0  # Estabilidade
+                time_factor = 1.0  
             elif tempo_casa < 15:
-                time_factor = 0.95  # Leve declínio
+                time_factor = 0.95 
             else:
-                time_factor = 0.85  # Burnout de longo prazo
+                time_factor = 0.85  
             
             engagement_score = max(1, min(10, 
                 np.random.normal(base_engagement[departamento] * time_factor, 1.2)))
             
-            # Avaliação de performance (1-5) - correlacionada com engajamento
             performance_correlation = 0.6
             performance_base = 1 + (engagement_score - 1) * (4/9) * performance_correlation
             performance_noise = np.random.normal(0, 0.4)
             avaliacao_performance = max(1, min(5, performance_base + performance_noise))
             
-            # Status do funcionário baseado em probabilidade de turnover
             turnover_prob = turnover_weights[departamento]
             
-            # Ajustar probabilidade baseada no engajamento
             if engagement_score < 4:
                 turnover_prob *= 2.5
             elif engagement_score < 6:
@@ -180,7 +156,6 @@ class BernPeopleAnalytics:
             elif engagement_score > 8:
                 turnover_prob *= 0.5
             
-            # Ajustar por geração
             gen_turnover_multiplier = {
                 'Geração Z': 1.8,
                 'Millennial': 1.2, 
@@ -191,36 +166,28 @@ class BernPeopleAnalytics:
             
             is_active = random.random() > turnover_prob
             
-            # Para funcionários inativos, determinar tipo de desligamento
             if not is_active:
-                # 70% voluntário (mais realista para baixo engajamento)
                 tipo_desligamento = 'Voluntário' if random.random() < 0.7 else 'Involuntário'
                 data_desligamento = fake.date_between(start_date='-2y', end_date='today')
             else:
                 tipo_desligamento = None
                 data_desligamento = None
             
-            # Score de risco de turnover (0-100) para funcionários ativos
             if is_active:
-                # Base do risco inverso ao engajamento
                 base_risk = max(0, 100 - (engagement_score * 10))
                 
-                # Fatores de risco adicionais
                 risk_factors = 0
                 
-                # Tempo de casa
                 if tempo_casa < 1:
                     risk_factors += 20
                 elif tempo_casa > 15:
                     risk_factors += 15
                 
-                # Geração
                 if geracao == 'Geração Z':
                     risk_factors += 15
                 elif geracao == 'Millennial':
                     risk_factors += 5
                 
-                # Performance baixa
                 if avaliacao_performance < 3:
                     risk_factors += 25
                 
@@ -228,7 +195,6 @@ class BernPeopleAnalytics:
             else:
                 risk_score = None
             
-            # Tendência de engajamento
             if engagement_score < 5:
                 tendencia = 'Declinando'
             elif engagement_score > 7.5:
@@ -260,7 +226,6 @@ class BernPeopleAnalytics:
         df = pd.DataFrame(employees)
         logger.info(f"✅ Dados de {len(df)} funcionários gerados com sucesso")
         
-        # Estatísticas de validação
         ativos = df[df['is_ativo'] == True]
         logger.info(f"📊 Funcionários ativos: {len(ativos)} ({len(ativos)/len(df)*100:.1f}%)")
         logger.info(f"📊 Taxa de turnover: {(len(df) - len(ativos))/len(df)*100:.1f}%")
@@ -277,7 +242,6 @@ class BernPeopleAnalytics:
         try:
             if self.engine:
                 with self.engine.connect() as conn:
-                    # Limpar tabelas existentes
                     conn.execute(text("DROP TABLE IF EXISTS funcionarios CASCADE"))
                     conn.execute(text("DROP VIEW IF EXISTS funcionarios_alto_risco CASCADE"))
                     conn.execute(text("DROP TABLE IF EXISTS metricas_departamento CASCADE"))
@@ -285,7 +249,6 @@ class BernPeopleAnalytics:
                     conn.execute(text("DROP TABLE IF EXISTS resumo_executivo CASCADE"))
                     conn.commit()
                 
-                # Criar tabela principal de funcionários
                 create_funcionarios = """
                 CREATE TABLE funcionarios (
                     id_funcionario VARCHAR(20) PRIMARY KEY,
@@ -308,10 +271,8 @@ class BernPeopleAnalytics:
                 """
                 conn.execute(text(create_funcionarios))
                 
-                # Inserir dados dos funcionários
                 df.to_sql('funcionarios', conn, if_exists='append', index=False, method='multi')
                 
-                # Criar view de funcionários de alto risco
                 create_alto_risco_view = """
                 CREATE VIEW funcionarios_alto_risco AS
                 SELECT 
@@ -360,7 +321,6 @@ class BernPeopleAnalytics:
         
         try:
             with self.engine.connect() as conn:
-                # Métricas por departamento
                 metricas_dept_query = """
                 CREATE TABLE metricas_departamento AS
                 SELECT 
@@ -397,7 +357,6 @@ class BernPeopleAnalytics:
                 """
                 conn.execute(text(metricas_dept_query))
                 
-                # Métricas por geração
                 metricas_ger_query = """
                 CREATE TABLE metricas_geracao AS
                 SELECT 
@@ -418,7 +377,6 @@ class BernPeopleAnalytics:
                 """
                 conn.execute(text(metricas_ger_query))
                 
-                # Resumo executivo
                 resumo_exec_query = """
                 CREATE TABLE resumo_executivo AS
                 SELECT 
@@ -487,13 +445,11 @@ class BernPeopleAnalytics:
         
         try:
             with self.engine.connect() as conn:
-                # KPIs principais
                 kpis = pd.read_sql("""
                     SELECT metrica, valor, unidade 
                     FROM resumo_executivo
                 """, conn)
                 
-                # Departamentos críticos
                 dept_criticos = pd.read_sql("""
                     SELECT departamento, taxa_turnover, engajamento_medio, funcionarios_ativos
                     FROM metricas_departamento 
@@ -501,13 +457,11 @@ class BernPeopleAnalytics:
                     ORDER BY taxa_turnover DESC
                 """, conn)
                 
-                # Funcionários alto risco
                 alto_risco = pd.read_sql("""
                     SELECT COUNT(*) as total_alto_risco
                     FROM funcionarios_alto_risco
                 """, conn)
                 
-                # Correlações chave
                 correlacao = pd.read_sql("""
                     SELECT 
                         CORR(score_engajamento, CASE WHEN is_ativo THEN 0 ELSE 1 END) as corr_engajamento_turnover,
@@ -543,19 +497,14 @@ class BernPeopleAnalytics:
         """
         logger.info("🚀 Iniciando análise completa de People Analytics...")
         
-        # 1. Gerar dados realistas
         df = self.generate_realistic_employee_data(800)
         
-        # 2. Criar estrutura do banco
         self.create_database_structure(df)
         
-        # 3. Criar tabelas analíticas
         self.create_analytical_tables()
         
-        # 4. Gerar insights
         self.generate_insights_report()
         
-        # 5. Informações de conexão
         logger.info("\n" + "="*60)
         logger.info("✅ PEOPLE ANALYTICS BERN - CONFIGURAÇÃO COMPLETA!")
         logger.info("="*60)
