@@ -4,7 +4,7 @@ Este projeto contém uma solução completa de People Analytics, incluindo a ger
 
 ## 📊 Dashboard Power BI
 
-O arquivo BI - FM está neste repositório e contém o relatório completo construído no Power BI. Para v isualizá-lo, é necessário ter o Power BI Desktop instalado.
+O arquivo BI é totalmente dependente do que acontece nesse repositório e provavelmente estará atrelado ao arquivo zipado do projeto para visualização.
 
 O dashboard é dividido em 4 páginas principais:
 
